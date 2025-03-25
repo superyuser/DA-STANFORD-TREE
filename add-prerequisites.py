@@ -1,11 +1,13 @@
 from ollama import chat
 from tqdm import tqdm
+from initialize_database import create_tables, DB_PARAMS
+import psycopg2
 import json
 import re
+import time
 
 # performs baby checks of dataset
 
-all_courses = []
 JSON_FILE = "data\scraped\courses_cs_all.json"
 PROMPT_TEMPLATE = """
 You are a course advisor for Stanford University. You will be given a course description. Your task is to extract the **prerequisites** and return them as a **JSON list**, like this:
@@ -38,9 +40,6 @@ def get_all_courses():
         data = json.load(f)
         return [entry["courseNumber"] for entry in data]
 
-valid_courses = get_all_courses()
-
-
 def generate_prompt(subject, courseDescription):
     return PROMPT_TEMPLATE.format(subject=subject, courseDescription=courseDescription)
 
@@ -63,38 +62,86 @@ def normalize_course_codes(result):
     # print(f"✨Normalized codes: {normalized_results}")
     return normalized_results
 
-def process_pres(result):
+def process_pres(result, valid_courses):
     just_codes = clean_course_codes(result)
     normalize_codes = normalize_course_codes(just_codes)
-    valid_codes = [code for code in normalize_codes if code in valid_courses]
-    print(f"✨Matching valid codes: {valid_codes}")
+    valid_codes = [code for code in normalize_codes if code in set(valid_courses)]
+    # print(f"✨Matching valid codes: {valid_codes}")
     invalid_codes_to_print = [code for code in normalize_codes if code not in valid_courses]
     # print(f"💔Invalid codes: {invalid_codes_to_print}")
     return valid_codes
 
-with open("data\scraped\courses_cs_all.json", "r") as f:
-    data = json.load(f)
-    for course in data[5000:5030]:
-        course_obj = course
-        course_obj["prerequisites"] = []
-        
-        messages = [
-            {
-                "role": "user",
-                "content": generate_prompt(course_obj["courseNumber"].split(" ")[0], course_obj["courseDescription"])
-            }
-        ]
+def get_course_id(code, curr):
+    curr.execute("SELECT id FROM courses WHERE code = %s", (code,))
+    result = curr.fetchone()
+    return result[0] if result else None
 
-        response = chat("llama3.2", messages)
+def main():
+    print(f"➡️Loading all courses...")
+    valid_courses = get_all_courses()
 
-        raw_result = json.loads(response["message"]["content"])
-        course_obj["prerequisites"] = process_pres(raw_result)
-        all_courses.append(course_obj)
+    print(f"➡️Initializing database...")
+    create_tables()
 
-# print(f"🍚Saving to json...")
+    all_courses = []
+    with open("data\scraped\courses_cs_all.json", "r") as f:
+        data = json.load(f)
+        with psycopg2.connect(**DB_PARAMS) as conn:
+            with conn.cursor() as curr:
+                # two-pass #1: insert all courses
+                for course in tqdm(data):
+                    curr.execute("""
+                    INSERT INTO courses (code, name, description)
+                    VALUES (%s, %s, %s)
+                    ON CONFLICT (code) DO NOTHING
+                    """, (course["courseNumber"], course["courseName"], course["courseDescription"]))
+                
+                print(f"🌬️🌬️🌬️ Done inserting courses.")
+                # pass #2: populate prereqs
+                for course in tqdm(data[:100], leave=False):
+                    course_obj = course
+                    # get prereqs (ollama -> clean -> process)
+                    messages = [
+                        {
+                            "role": "user",
+                            "content": generate_prompt(course["courseNumber"].split(" ")[0], course["courseDescription"])
+                        }
+                    ]
 
-# with open("data\processed\courses_cs_pres.json", "w") as f:
-#     json.dump(all_courses, f, indent=4)
-# print(f"✨✨Saved to json: {len(all_courses)} courses with prerequisites✨✨")
+                    response = chat("llama3.2", messages)
+                    try:
+                        raw_result = json.loads(response["message"]["content"])
+                    except json.JSONDecodeError:
+                        print(f"❌Failed to parse JSON response for {course['courseNumber']}\nRaw result: {response['message']['content']}\n")
+                        raw_result = response["message"]["content"]
+                    time.sleep(0.05)
+                    course_obj["prerequisites"] = process_pres(raw_result, valid_courses)
+                    # print(f"📘 {course_obj['courseNumber']} → {course_obj['prerequisites']}")
+                    all_courses.append(course_obj)
 
-    
+
+
+    with open("data\scraped\prereqs.json", "w") as f:
+        json.dump(all_courses, f, indent=2)
+
+        #             # insert into `prereqs` for prerequisites
+        #             course_id = get_course_id(course["courseNumber"], curr)
+        #             for prereq in course_obj["prerequisites"]:
+        #                 prereq_id = get_course_id(prereq, curr)
+        #                 if prereq_id and course_id:
+        #                     curr.execute("""
+        #                     INSERT INTO prereqs (course_id, prereq_id)
+        #                     VALUES (%s, %s)
+        #                     ON CONFLICT (course_id, prereq_id) DO NOTHING
+        #                     """, (course_id, prereq_id))
+        #                 else:
+        #                     print(f"❌Prerequisite {prereq} not found for course {course_obj['courseNumber']}")
+
+        #             conn.commit()
+        #             time.sleep(0.1)
+        #             # print(f"✅successfully processed {course_obj['courseNumber']}!\n")
+        # num_courses = len(data)
+        # print(f"🎯🎯🎯Finished processing {num_courses} courses!")
+
+if __name__ == "__main__":
+    main()
