@@ -1,6 +1,3 @@
-import json
-import os
-import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -9,6 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from tqdm import tqdm
+import json
+import os
+import time
 import datetime
 import re
 
@@ -20,7 +20,8 @@ DEPARTMENT_FILEPATH = "./data/departments.json"
 
 def get_url(code):
     # this is just for spring 24-25, but can be tweaked for other quarters later if necessary
-    return "https://explorecourses.stanford.edu/print?q=a&descriptions=on&filter-term-Winter=on&academicYear=&filter-term-Summer=on&filter-catalognumber-CS=on&filter-term-Autumn=on&filter-term-Spring=on&page=0&filter-coursestatus-Active=on&collapse=&catalog="
+    all_quarters_query_a = "https://explorecourses.stanford.edu/print?q=a&descriptions=on&filter-term-Winter=on&academicYear=&filter-term-Summer=on&filter-term-Autumn=on&filter-term-Spring=on&page=0&filter-coursestatus-Active=on&collapse=&catalog="
+    return all_quarters_query_a
 
 def scrapekCourses(code, k="all"):
     results = []
