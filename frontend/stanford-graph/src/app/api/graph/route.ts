@@ -1,50 +1,51 @@
 import { NextResponse } from 'next/server';
-import { Pool } from 'pg';
-import { config } from 'dotenv';
-config(); 
+import { createClient } from '@supabase/supabase-js';
 
-console.log({
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    host: process.env.DB_HOST,
-    database: process.env.DB_NAME,
-    port: process.env.DB_PORT,
-  });
-
-const pool = new Pool({
-  user: process.env.DB_USER,
-  host: process.env.DB_HOST,
-  database: process.env.DB_NAME,
-  password: process.env.DB_PASSWORD,
-  port: Number(process.env.DB_PORT),
-});
+// Initialize Supabase client using environment variables
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
 
 export async function GET() {
   try {
-    const client = await pool.connect();
+    // Fetch courses and prereqs from Supabase
+    const { data: courses, error: courseError } = await supabase
+      .from('courses')
+      .select('id, code');
 
-    const coursesRes = await client.query('SELECT id, code FROM courses');
-    const prereqsRes = await client.query('SELECT course_id, prereq_id FROM prereqs');
+    const { data: prereqs, error: prereqError } = await supabase
+      .from('prereqs')
+      .select('course_id, prereq_id');
 
+    if (courseError || prereqError) {
+      throw new Error(courseError?.message || prereqError?.message);
+    }
+
+    // Build mapping from id to course code
     const idToCode: Record<number, string> = {};
-    const nodes = coursesRes.rows.map(row => {
-      idToCode[row.id] = row.code;
+    const nodes = courses.map((course) => {
+      idToCode[course.id] = course.code;
       return {
-        id: row.code,
-        label: row.code,
+        id: course.code,
+        label: course.code,
       };
     });
 
-    const edges = prereqsRes.rows.map(row => ({
-      source: idToCode[row.prereq_id],
-      target: idToCode[row.course_id],
-    }));
-
-    client.release();
+    // Convert course_id and prereq_id into edges using course codes
+    const edges = prereqs
+      .filter(row => idToCode[row.course_id] && idToCode[row.prereq_id])
+      .map(row => ({
+        source: idToCode[row.prereq_id],
+        target: idToCode[row.course_id],
+      }));
 
     return NextResponse.json({ nodes, edges });
   } catch (error) {
-    console.error('Failed to fetch graph data:', error);
-    return NextResponse.json({ error: 'Something went wrong' }, { status: 500 });
+    console.error('❌ Failed to fetch graph data:', error);
+    return NextResponse.json(
+      { error: 'Something went wrong while fetching data.' },
+      { status: 500 }
+    );
   }
 }
