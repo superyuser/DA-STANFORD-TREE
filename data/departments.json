@@ -1,0 +1,1034 @@
+[
+    {
+        "name": "Athletics and Club Sports",
+        "code": "ATHLETIC"
+    },
+    {
+        "name": "Horse",
+        "code": "HORSE"
+    },
+    {
+        "name": "Kinesiology",
+        "code": "KIN"
+    },
+    {
+        "name": "Outdoor Education",
+        "code": "OUTDOOR"
+    },
+    {
+        "name": "Physical Wellness",
+        "code": "PHYSWELL"
+    },
+    {
+        "name": "Earth Systems",
+        "code": "EARTHSYS"
+    },
+    {
+        "name": "Energy Science and Engineering",
+        "code": "ENERGY"
+    },
+    {
+        "name": "Environment and Resources",
+        "code": "ENVRES"
+    },
+    {
+        "name": "Environmental Behavioral Science",
+        "code": "EBS"
+    },
+    {
+        "name": "Earth and Planetary Sciences",
+        "code": "EPS"
+    },
+    {
+        "name": "Earth System Science",
+        "code": "ESS"
+    },
+    {
+        "name": "Global Environmental Policy",
+        "code": "GEP"
+    },
+    {
+        "name": "Oceans",
+        "code": "OCEANS"
+    },
+    {
+        "name": "Geophysics",
+        "code": "GEOPHYS"
+    },
+    {
+        "name": "Sustainability",
+        "code": "SUSTAIN"
+    },
+    {
+        "name": "Sustainability Science and Practice",
+        "code": "SUST"
+    },
+    {
+        "name": "Accounting",
+        "code": "ACCT"
+    },
+    {
+        "name": "Action Learning Programs",
+        "code": "ALP"
+    },
+    {
+        "name": "Business General Pathways",
+        "code": "BUSGEN"
+    },
+    {
+        "name": "Economic Analysis & Policy",
+        "code": "MGTECON"
+    },
+    {
+        "name": "Finance",
+        "code": "FINANCE"
+    },
+    {
+        "name": "GSB General & Interdisciplinary",
+        "code": "GSBGEN"
+    },
+    {
+        "name": "GSB Interdisciplinary",
+        "code": "GSBGID"
+    },
+    {
+        "name": "Human Resource Management",
+        "code": "HRMGT"
+    },
+    {
+        "name": "Marketing",
+        "code": "MKTG"
+    },
+    {
+        "name": "Operations Information & Technology",
+        "code": "OIT"
+    },
+    {
+        "name": "Organizational Behavior",
+        "code": "OB"
+    },
+    {
+        "name": "Political Economics",
+        "code": "POLECON"
+    },
+    {
+        "name": "Strategic Management",
+        "code": "STRAMGT"
+    },
+    {
+        "name": "Education",
+        "code": "EDUC"
+    },
+    {
+        "name": "Aeronautics & Astronautics",
+        "code": "AA"
+    },
+    {
+        "name": "Bioengineering",
+        "code": "BIOE"
+    },
+    {
+        "name": "Chemical Engineering",
+        "code": "CHEMENG"
+    },
+    {
+        "name": "Civil & Environmental Engineering",
+        "code": "CEE"
+    },
+    {
+        "name": "Computational & Mathematical Engineering",
+        "code": "CME"
+    },
+    {
+        "name": "Computer Science",
+        "code": "CS"
+    },
+    {
+        "name": "Design",
+        "code": "DESIGN"
+    },
+    {
+        "name": "Design Institute",
+        "code": "DESINST"
+    },
+    {
+        "name": "Electrical Engineering",
+        "code": "EE"
+    },
+    {
+        "name": "Engineering",
+        "code": "ENGR"
+    },
+    {
+        "name": "Management Science & Engineering",
+        "code": "MS&E"
+    },
+    {
+        "name": "Materials Science & Engineer",
+        "code": "MATSCI"
+    },
+    {
+        "name": "Mechanical Engineering",
+        "code": "ME"
+    },
+    {
+        "name": "Scientific Computing & Comput'l Math",
+        "code": "SCCM"
+    },
+    {
+        "name": "African & African American Studies",
+        "code": "AFRICAAM"
+    },
+    {
+        "name": "African & Middle Eastern Languages",
+        "code": "AMELANG"
+    },
+    {
+        "name": "Amharic",
+        "code": "AMHRLANG"
+    },
+    {
+        "name": "American Sign Language",
+        "code": "ASLLANG"
+    },
+    {
+        "name": "American Studies",
+        "code": "AMSTUD"
+    },
+    {
+        "name": "Anthropology",
+        "code": "ANTHRO"
+    },
+    {
+        "name": "Applied Physics",
+        "code": "APPPHYS"
+    },
+    {
+        "name": "Arabic Language",
+        "code": "ARABLANG"
+    },
+    {
+        "name": "Archaeology",
+        "code": "ARCHLGY"
+    },
+    {
+        "name": "Armenian",
+        "code": "ARMELANG"
+    },
+    {
+        "name": "Art History",
+        "code": "ARTHIST"
+    },
+    {
+        "name": "Art Studio",
+        "code": "ARTSTUDI"
+    },
+    {
+        "name": "Arts Institute",
+        "code": "ARTSINST"
+    },
+    {
+        "name": "Asian American Studies",
+        "code": "ASNAMST"
+    },
+    {
+        "name": "Biology",
+        "code": "BIO"
+    },
+    {
+        "name": "Biology/Hopkins Marine",
+        "code": "BIOHOPK"
+    },
+    {
+        "name": "Biophysics",
+        "code": "BIOPHYS"
+    },
+    {
+        "name": "Catalan Language Courses",
+        "code": "CATLANG"
+    },
+    {
+        "name": "Chemistry",
+        "code": "CHEM"
+    },
+    {
+        "name": "Cherokee",
+        "code": "CHRKELNG"
+    },
+    {
+        "name": "Chicana/o-Latina/o Studies",
+        "code": "CHILATST"
+    },
+    {
+        "name": "Chinese",
+        "code": "CHINA"
+    },
+    {
+        "name": "Chinese Language",
+        "code": "CHINLANG"
+    },
+    {
+        "name": "Classics",
+        "code": "CLASSICS"
+    },
+    {
+        "name": "Communication",
+        "code": "COMM"
+    },
+    {
+        "name": "Comparative Literature",
+        "code": "COMPLIT"
+    },
+    {
+        "name": "Comparative Studies in Race & Ethnicity",
+        "code": "CSRE"
+    },
+    {
+        "name": "Czech",
+        "code": "CZECLANG"
+    },
+    {
+        "name": "Dance",
+        "code": "DANCE"
+    },
+    {
+        "name": "Data Science",
+        "code": "DATASCI"
+    },
+    {
+        "name": "Division of Literatures, Cultures, & Languages",
+        "code": "DLCL"
+    },
+    {
+        "name": "Drama",
+        "code": "TAPS"
+    },
+    {
+        "name": "Dutch",
+        "code": "DUTCHLNG"
+    },
+    {
+        "name": "East Asian Languages & Cultures",
+        "code": "EALC"
+    },
+    {
+        "name": "East Asian Studies",
+        "code": "EASTASN"
+    },
+    {
+        "name": "Economics",
+        "code": "ECON"
+    },
+    {
+        "name": "English",
+        "code": "ENGLISH"
+    },
+    {
+        "name": "English for Speakers of Other Languages",
+        "code": "ESOLLANG"
+    },
+    {
+        "name": "Ethics in Society",
+        "code": "ETHICSOC"
+    },
+    {
+        "name": "Feminist, Gender and Sexuality Studies",
+        "code": "FEMGEN"
+    },
+    {
+        "name": "Filipino",
+        "code": "FILILANG"
+    },
+    {
+        "name": "Film and Media Studies",
+        "code": "FILMEDIA"
+    },
+    {
+        "name": "Film Production",
+        "code": "FILMPROD"
+    },
+    {
+        "name": "Finnish",
+        "code": "FINNLANG"
+    },
+    {
+        "name": "French Language",
+        "code": "FRENLANG"
+    },
+    {
+        "name": "French Studies",
+        "code": "FRENCH"
+    },
+    {
+        "name": "German Language",
+        "code": "GERLANG"
+    },
+    {
+        "name": "German Studies",
+        "code": "GERMAN"
+    },
+    {
+        "name": "Global Studies",
+        "code": "GLOBAL"
+    },
+    {
+        "name": "Gujarati",
+        "code": "GUJARLNG"
+    },
+    {
+        "name": "Haitian Creole",
+        "code": "HAITLANG"
+    },
+    {
+        "name": "Hawaiian",
+        "code": "HAWALANG"
+    },
+    {
+        "name": "Hebrew",
+        "code": "HEBRLANG"
+    },
+    {
+        "name": "Hindi",
+        "code": "HINDLANG"
+    },
+    {
+        "name": "History",
+        "code": "HISTORY"
+    },
+    {
+        "name": "History & Philosophy of Science",
+        "code": "HPS"
+    },
+    {
+        "name": "Hittite",
+        "code": "HITTLANG"
+    },
+    {
+        "name": "Hungarian",
+        "code": "HNGRLANG"
+    },
+    {
+        "name": "Human Biology",
+        "code": "HUMBIO"
+    },
+    {
+        "name": "Human Rights",
+        "code": "HUMRTS"
+    },
+    {
+        "name": "Humanities & Sciences",
+        "code": "HUMSCI"
+    },
+    {
+        "name": "Humanities Core",
+        "code": "HUMCORE"
+    },
+    {
+        "name": "Iberian & Latin American Cultures",
+        "code": "ILAC"
+    },
+    {
+        "name": "Igbo",
+        "code": "IGBOLANG"
+    },
+    {
+        "name": "Institute for International Studies (FSI)",
+        "code": "IIS"
+    },
+    {
+        "name": "International Policy",
+        "code": "INTLPOL"
+    },
+    {
+        "name": "International Relations",
+        "code": "INTNLREL"
+    },
+    {
+        "name": "Inupiaq",
+        "code": "INUPQLNG"
+    },
+    {
+        "name": "Italian Language",
+        "code": "ITALLANG"
+    },
+    {
+        "name": "Italian Studies",
+        "code": "ITALIAN"
+    },
+    {
+        "name": "Japanese",
+        "code": "JAPAN"
+    },
+    {
+        "name": "Japanese Language",
+        "code": "JAPANLNG"
+    },
+    {
+        "name": "Jewish Studies",
+        "code": "JEWISHST"
+    },
+    {
+        "name": "Kazakh",
+        "code": "KAZKHLNG"
+    },
+    {
+        "name": "Khmer",
+        "code": "KHMRLANG"
+    },
+    {
+        "name": "Kinyarwanda",
+        "code": "KINYLANG"
+    },
+    {
+        "name": "Korean",
+        "code": "KOREA"
+    },
+    {
+        "name": "Korean Language",
+        "code": "KORLANG"
+    },
+    {
+        "name": "Lakota",
+        "code": "LAKOTLNG"
+    },
+    {
+        "name": "Latin American Studies",
+        "code": "LATINAM"
+    },
+    {
+        "name": "Linguistics",
+        "code": "LINGUIST"
+    },
+    {
+        "name": "Luganda",
+        "code": "LUGALANG"
+    },
+    {
+        "name": "Master of Liberal Arts",
+        "code": "MLA"
+    },
+    {
+        "name": "Mathematical & Computational Science",
+        "code": "MCS"
+    },
+    {
+        "name": "Mathematics",
+        "code": "MATH"
+    },
+    {
+        "name": "Medieval Studies",
+        "code": "MEDVLST"
+    },
+    {
+        "name": "Modern Greek",
+        "code": "GREELANG"
+    },
+    {
+        "name": "Modern Thought & Literature",
+        "code": "MTL"
+    },
+    {
+        "name": "Music",
+        "code": "MUSIC"
+    },
+    {
+        "name": "Nahuatl",
+        "code": "NAHUALNG"
+    },
+    {
+        "name": "Native American Studies",
+        "code": "NATIVEAM"
+    },
+    {
+        "name": "Navajo",
+        "code": "NVJOLANG"
+    },
+    {
+        "name": "Oromo",
+        "code": "OROMLANG"
+    },
+    {
+        "name": "Persian",
+        "code": "PERSLANG"
+    },
+    {
+        "name": "Philosophy",
+        "code": "PHIL"
+    },
+    {
+        "name": "Physics",
+        "code": "PHYSICS"
+    },
+    {
+        "name": "Polish",
+        "code": "POLSHLNG"
+    },
+    {
+        "name": "Political Science",
+        "code": "POLISCI"
+    },
+    {
+        "name": "Portuguese Language",
+        "code": "PORTLANG"
+    },
+    {
+        "name": "Psychology",
+        "code": "PSYCH"
+    },
+    {
+        "name": "Public Policy",
+        "code": "PUBLPOL"
+    },
+    {
+        "name": "Punjabi",
+        "code": "PUNJLANG"
+    },
+    {
+        "name": "Quechua",
+        "code": "QUECHLNG"
+    },
+    {
+        "name": "Religious Studies",
+        "code": "RELIGST"
+    },
+    {
+        "name": "Romanian",
+        "code": "ROMALANG"
+    },
+    {
+        "name": "Russian",
+        "code": "RUSSLANG"
+    },
+    {
+        "name": "Russian, East European, & Eurasian Studies",
+        "code": "REES"
+    },
+    {
+        "name": "Samoan",
+        "code": "SAMOALNG"
+    },
+    {
+        "name": "Sanskrit",
+        "code": "SNSKTLNG"
+    },
+    {
+        "name": "Science, Technology, & Society",
+        "code": "STS"
+    },
+    {
+        "name": "Serbian",
+        "code": "SERBLANG"
+    },
+    {
+        "name": "Slavic Studies",
+        "code": "SLAVIC"
+    },
+    {
+        "name": "Slovenian",
+        "code": "SLVNLANG"
+    },
+    {
+        "name": "Sociology",
+        "code": "SOC"
+    },
+    {
+        "name": "Spanish Language",
+        "code": "SPANLANG"
+    },
+    {
+        "name": "Spanish, Portuguese, & Catalan Literature",
+        "code": "ILAC"
+    },
+    {
+        "name": "Special Language Program",
+        "code": "SPECLANG"
+    },
+    {
+        "name": "Stanford in Washington",
+        "code": "SIW"
+    },
+    {
+        "name": "Statistics",
+        "code": "STATS"
+    },
+    {
+        "name": "Swahili",
+        "code": "SWAHLANG"
+    },
+    {
+        "name": "Symbolic Systems",
+        "code": "SYMSYS"
+    },
+    {
+        "name": "Tamil",
+        "code": "TAMILANG"
+    },
+    {
+        "name": "Theater and Performance Studies",
+        "code": "TAPS"
+    },
+    {
+        "name": "Tibetan Language",
+        "code": "TIBETLNG"
+    },
+    {
+        "name": "Tigrinya",
+        "code": "TIGRYLNG"
+    },
+    {
+        "name": "Turkish",
+        "code": "TURKLANG"
+    },
+    {
+        "name": "Twi",
+        "code": "TWILANG"
+    },
+    {
+        "name": "Ukrainian",
+        "code": "UKRNLANG"
+    },
+    {
+        "name": "Urban Studies",
+        "code": "URBANST"
+    },
+    {
+        "name": "Urdu",
+        "code": "URDULANG"
+    },
+    {
+        "name": "Uyghur",
+        "code": "UYGHLANG"
+    },
+    {
+        "name": "Vietnamese",
+        "code": "VIETLANG"
+    },
+    {
+        "name": "Yiddish",
+        "code": "YDDSHLNG"
+    },
+    {
+        "name": "Yoruba",
+        "code": "YORULANG"
+    },
+    {
+        "name": "Yup'ik",
+        "code": "YUPKLANG"
+    },
+    {
+        "name": "Zulu",
+        "code": "ZULULANG"
+    },
+    {
+        "name": "Law",
+        "code": "LAW"
+    },
+    {
+        "name": "Law, Nonprofessional",
+        "code": "LAWGEN"
+    },
+    {
+        "name": "Anesthesia",
+        "code": "ANES"
+    },
+    {
+        "name": "Biochemistry",
+        "code": "BIOC"
+    },
+    {
+        "name": "Biomedical Data Science",
+        "code": "BIODS"
+    },
+    {
+        "name": "Biomedical Informatics",
+        "code": "BIOMEDIN"
+    },
+    {
+        "name": "Biomedical Physics",
+        "code": "BMP"
+    },
+    {
+        "name": "Biosciences Interdisciplinary",
+        "code": "BIOS"
+    },
+    {
+        "name": "Cancer Biology",
+        "code": "CBIO"
+    },
+    {
+        "name": "Cardiothoracic Surgery",
+        "code": "CTS"
+    },
+    {
+        "name": "Chemical & Systems Biology",
+        "code": "CSB"
+    },
+    {
+        "name": "Community Health and Prevention Research",
+        "code": "CHPR"
+    },
+    {
+        "name": "Comparative Medicine",
+        "code": "COMPMED"
+    },
+    {
+        "name": "Dermatology",
+        "code": "DERM"
+    },
+    {
+        "name": "Developmental Biology",
+        "code": "DBIO"
+    },
+    {
+        "name": "Emergency Medicine",
+        "code": "EMED"
+    },
+    {
+        "name": "Epidemiology",
+        "code": "EPI"
+    },
+    {
+        "name": "Family and Community Medicine",
+        "code": "FAMMED"
+    },
+    {
+        "name": "Genetics",
+        "code": "GENE"
+    },
+    {
+        "name": "Health Research & Policy",
+        "code": "HRP"
+    },
+    {
+        "name": "Immunology",
+        "code": "IMMUNOL"
+    },
+    {
+        "name": "Leadership Innovations",
+        "code": "LEAD"
+    },
+    {
+        "name": "Lifeworks",
+        "code": "LIFE"
+    },
+    {
+        "name": "Medicine",
+        "code": "MED"
+    },
+    {
+        "name": "Medicine Interdisciplinary",
+        "code": "INDE"
+    },
+    {
+        "name": "Microbiology & Immunology",
+        "code": "MI"
+    },
+    {
+        "name": "Molecular & Cellular Physiology",
+        "code": "MCP"
+    },
+    {
+        "name": "Neurobiology",
+        "code": "NBIO"
+    },
+    {
+        "name": "Neurology & Neurological Sciences",
+        "code": "NENS"
+    },
+    {
+        "name": "Neurosciences Program",
+        "code": "NEPR"
+    },
+    {
+        "name": "Neurosurgery",
+        "code": "NSUR"
+    },
+    {
+        "name": "Obstetrics & Gynecology",
+        "code": "OBGYN"
+    },
+    {
+        "name": "Ophthalmology",
+        "code": "OPHT"
+    },
+    {
+        "name": "Orthopedic Surgery",
+        "code": "ORTHO"
+    },
+    {
+        "name": "Otolaryngology",
+        "code": "OTOHNS"
+    },
+    {
+        "name": "Pathology",
+        "code": "PATH"
+    },
+    {
+        "name": "Pediatrics",
+        "code": "PEDS"
+    },
+    {
+        "name": "Physician Assistant Studies",
+        "code": "PAS"
+    },
+    {
+        "name": "Psychiatry",
+        "code": "PSYC"
+    },
+    {
+        "name": "Radiation Oncology",
+        "code": "RADO"
+    },
+    {
+        "name": "Radiology",
+        "code": "RAD"
+    },
+    {
+        "name": "School of Medicine General",
+        "code": "SOMGEN"
+    },
+    {
+        "name": "Stem Cell Biology and Regenerative Medicine",
+        "code": "STEMREM"
+    },
+    {
+        "name": "Structural Biology",
+        "code": "SBIO"
+    },
+    {
+        "name": "Surgery",
+        "code": "SURG"
+    },
+    {
+        "name": "Urology",
+        "code": "UROL"
+    },
+    {
+        "name": "Wellness Education",
+        "code": "WELLNESS"
+    },
+    {
+        "name": "Center for Teaching and Learning",
+        "code": "CTL"
+    },
+    {
+        "name": "Civic, Liberal, and Global Education",
+        "code": "COLLEGE"
+    },
+    {
+        "name": "Education as Self-Fashioning",
+        "code": "ESF"
+    },
+    {
+        "name": "Immersion in the Arts",
+        "code": "ITALIC"
+    },
+    {
+        "name": "Online Bridge Course",
+        "code": "SOAR"
+    },
+    {
+        "name": "Oral Communications",
+        "code": "ORALCOMM"
+    },
+    {
+        "name": "Overseas Studies General",
+        "code": "OSPGEN"
+    },
+    {
+        "name": "Overseas Studies in Australia",
+        "code": "OSPAUSTL"
+    },
+    {
+        "name": "Overseas Studies in Beijing",
+        "code": "OSPBEIJ"
+    },
+    {
+        "name": "Overseas Studies in Berlin",
+        "code": "OSPBER"
+    },
+    {
+        "name": "Overseas Studies in Cape Town",
+        "code": "OSPCPTWN"
+    },
+    {
+        "name": "Overseas Studies in Florence",
+        "code": "OSPFLOR"
+    },
+    {
+        "name": "Overseas Studies in Hong Kong",
+        "code": "OSPHONGK"
+    },
+    {
+        "name": "Overseas Studies in Istanbul",
+        "code": "OSPISTAN"
+    },
+    {
+        "name": "Overseas Studies in Kyoto",
+        "code": "OSPKYOTO"
+    },
+    {
+        "name": "Overseas Studies in Kyoto (KCJS)",
+        "code": "OSPKYOCT"
+    },
+    {
+        "name": "Overseas Studies in Madrid",
+        "code": "OSPMADRD"
+    },
+    {
+        "name": "Overseas Studies in Oxford",
+        "code": "OSPOXFRD"
+    },
+    {
+        "name": "Overseas Studies in Paris",
+        "code": "OSPPARIS"
+    },
+    {
+        "name": "Overseas Studies in Santiago",
+        "code": "OSPSANTG"
+    },
+    {
+        "name": "Residential Programs",
+        "code": "RESPROG"
+    },
+    {
+        "name": "ROTC Air Force",
+        "code": "ROTCAF"
+    },
+    {
+        "name": "ROTC Army",
+        "code": "ROTCARMY"
+    },
+    {
+        "name": "ROTC Navy",
+        "code": "ROTCNAVY"
+    },
+    {
+        "name": "Stanford in New York",
+        "code": "SINY"
+    },
+    {
+        "name": "Structured Liberal Education",
+        "code": "SLE"
+    },
+    {
+        "name": "Thinking Matters",
+        "code": "THINK"
+    },
+    {
+        "name": "Undergraduate Advising and Research",
+        "code": "UAR"
+    },
+    {
+        "name": "Writing & Rhetoric, Program in",
+        "code": "PWR"
+    },
+    {
+        "name": "Teaching and Learning",
+        "code": "VPTL"
+    },
+    {
+        "name": "Sophomore College Courses",
+        "code": "SCS"
+    }
+]
