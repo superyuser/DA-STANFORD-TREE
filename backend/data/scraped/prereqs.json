@@ -1,0 +1,777 @@
+[
+  {
+    "courseNumber": "CS 7",
+    "courseName": "Personal Finance for Engineers",
+    "courseDescription": "Introduction to the fundamentals and analysis specifically needed by engineers to make informed and intelligent financial decisions. Course will focus on actual industry-based financial information from technology companies and realistic financial issues. Topics include: behavioral finance, budgeting, debt, compensation, stock options, investing and real estate. No prior finance or economics experience required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 11SI",
+    "courseName": "How to Make VR: Introduction to Virtual Reality Design and Development",
+    "courseDescription": "In this hands-on, experiential course, students will design and develop virtual reality applications. You'll learn how to use the Unity game engine, the most popular platform for creating immersive applications. The class will teach the design best practices and the creation pipeline for VR applications. Students will work in groups to present a final project in building an application for the Oculus Quest 2 headset. Enrollment is limited and by application only. See https://cs11si.stanford.edu for more information and the link to the application. Prerequisite: CS 106A or equivalent",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 21SI",
+    "courseName": "AI for Social Good",
+    "courseDescription": "Students will explore challenging social issues, and learn about the opportunities and limitations for AI to empower human solutions! You'll learn about applying AI to real-world social good spaces (such as climate, education, and housing) and learn what this looks like in practice. The class provides a high-level overview of the machine learning and deep learning techniques that have already proven effective in tackling social problems. Overall, we aim to center the \"social good\" component of AI for Social Good and cover material you would not otherwise see in the AI curriculum at Stanford. The course structure alternates between instructional lectures and bi-weekly guest speakers at the forefront of technology for social good. Students will be given the chance to engage in a flexible combination of AI model building, discussion, and individual exploration. Special topics may include: tech ethics, human-centered AI, AI safety, education technology, mental health applications, AI in policy, assistive robotics. Prerequisites: programming experience at the level of CS106A and an interest in social impact! Application required for enrollment: http://tinyurl.com/cs21si2425. We encourage students from all disciplines and backgrounds to apply!",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 22A",
+    "courseName": "The Social & Economic Impact of Artificial Intelligence (INTLPOL 200, SYMSYS 122)",
+    "courseDescription": "Recent advances in Generative Artificial Intelligence place us at the threshold of a unique turning point in human history. For the first time, we face the prospect that we are not the only generally intelligent entities, and indeed that we may be less capable than our own creations. As this remarkable new technology continues to advance, we are likely to entrust management of our environment, economy, security, infrastructure, food production, healthcare, and to a large degree even our personal activities, to artificially intelligent computer systems. The prospect of \"turning over the keys\" to increasingly autonomous and unpredictable machines raises many complex and troubling questions. How will society respond as they displace an ever-expanding spectrum of blue- and white-collar workers? Will the benefits of this technological revolution be broadly distributed or accrue to a lucky few? How can we ensure that these systems are free of bias and align with human ethical principles? What role will they play in our system of justice and the practice of law? How will they be used or abused in democratic societies and autocratic regimes? Will they alter the geopolitical balance of power, and change the nature of warfare? Are we merely a stepping-stone to a new form of non-biological life, or are we just getting better at building useful gadgets? The goal of this course is to equip students with the intellectual tools, ethical foundation, and psychological framework to successfully navigate the coming age of superintelligent machines. (Note: This course is pre-approved for credit at SLS and GSB. GSB students must enroll in either SYMSYS 122 or INTLPOL 200 for GSB credit. No programming or technical knowledge is required.)",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 24",
+    "courseName": "Minds and Machines (LINGUIST 35, PHIL 99, PSYCH 35, SYMSYS 1, SYMSYS 200)",
+    "courseDescription": "(Formerly SYMSYS 100). An overview of the interdisciplinary study of cognition, information, communication, and language, with an emphasis on foundational issues: What are minds? What is computation? What are rationality and intelligence? Can we predict human behavior? Can computers be truly intelligent? How do people and technology interact, and how might they do so in the future? Lectures focus on how the methods of philosophy, mathematics, empirical research, and computational modeling are used to study minds and machines. Students must take this course before being approved to declare Symbolic Systems as a major. All students interested in studying Symbolic Systems are urged to take this course early in their student careers. The course material and presentation will be at an introductory level, without prerequisites. Note that this is a hybrid course. Students should plan to enroll by the first day of the quarter and check their Stanford email account for instructions on how to access the course material. If you have any questions about the course, please email symsys1staff@gmail.com.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 25",
+    "courseName": "Transformers United V5",
+    "courseDescription": "Since their introduction in 2017, Transformers have revolutionized Deep Learning, powering large language models (LLM) like ChatGPT and DeepSeek, image and video generation (e.g. Dall-E and Sora), and much more. In CS25, one of Stanford's hottest seminar courses, we delve into Transformer architectures and their diverse applications through classroom discussions and instructor and guest lectures. Topics include LLM, creative uses in art and music, healthcare, neuroscience, robotics, and so forth. We host leading researchers, with past speakers like Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani, and folks from OpenAI, Anthropic, Google DeepMind, NVIDIA, etc. Lectures are livestreamed and recorded, attracting a global audience with over a million total YouTube views. This is a 1-unit S/NC course, where attendance is the only homework! Enroll via Axess or audit through livestreams or in-person, space permitting. Prerequisites: basic Deep Learning and Transformers knowledge (understanding of attention) or completion of CS224N, CS231N, or CS230. Course website: https://web.stanford.edu/class/cs25/",
+    "prerequisites": [
+      "CS 224N",
+      "CS 231N",
+      "CS 230"
+    ]
+  },
+  {
+    "courseNumber": "CS 31N",
+    "courseName": "Counterfactuals: The Science of What Ifs?",
+    "courseDescription": "How might the past have changed if different decisions were made? This question has captured the fascination of people for hundreds of years. By precisely asking, and answering such questions of counterfactual inference, we have the opportunity to both understand the impact of past decisions (has climate change worsened economic inequality?) and inform future choices (can we use historical electronic medical records data about decision made and outcomes, to create better protocols to enhance patient health?). In this course I will introduce some of the most common quantitative approaches to counterfactual reasoning, as well as give a wide sampling of some of the many important problems and questions that can be addressed through the lens of counterfactual reasoning, including in climate change, healthcare and economics. No prior experience with counterfactual or \"what if\" reasoning, nor probability, is required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 40",
+    "courseName": "Cloud Infrastructure and Scalable Application Deployment",
+    "courseDescription": "Trying to launch your next viral programming project and anticipating substantial user growth? This course will help you learn to implement your ideas in the cloud in a scalable, cost-effective manner. Topics will include cloud AI/ML pipelines, virtual machines, containers, basic networking, expressing infrastructure as code (IaC), data management, security and observability, and continuous integration and deployment (CI/CD). Through hands-on learning and practical examples, you'll learn to effectively deploy and manage cloud infrastructure. There is no out-of-pocket cost associated with this class and cloud credits will be provided for all students. Prerequisites: Programming maturity up to CS 107. Familiarity with the command line, version control, and basic development tools to the level of CS 45/CS 104, in particular: Basic Unix command line utilities and administration; Editing code with a TUI editor such as vim, emacs, or nano; Using Git and GitHub for collaborative projects (i.e. branching and pull requests); Basic familiarity with package managers for languages and operating systems (e.g., pip, apt, homebrew); Prior web development or networking experience helpful but not required.",
+    "prerequisites": [
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 44N",
+    "courseName": "Great Ideas in Graphics",
+    "courseDescription": "A hands-on interactive and fun exploration of great ideas from computer graphics. Motivated by graphics concepts, mathematical foundations and computer algorithms, students will explore an eccentric selection of \"great ideas\" through short weekly programming projects. Project topics will be selected from a diverse array of computer graphics concepts and historical elements.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 47N",
+    "courseName": "Datathletics: Diving into Data Analytics and Stanford Sports",
+    "courseDescription": "Sophisticated data collection and analysis are now key to program success across many sports: Nearly all professional and national-level teams employ data scientists, and \"datathletics\" is becoming prevalent in college sports as well. This immersive seminar combines extensive hands-on data analytics with a first-hand peek into Stanford athletics. Class meetings roughly alternate between: (1) instruction in a variety of tools and techniques for analyzing and visualizing data; and (2) guest lectures by Stanford athletics coaches explaining how data is or could be used in their sport. Through regular problem sets, students bring each week's tools to bear on data related to the week's sport. One goal of the class is empowering students to perform compelling data analytics by mastering tools across a wide spectrum, including spreadsheets, the Tableau system for data preparation and visualization, Jupyter notebooks, relational databases and SQL, Python and many of its data-specific packages including Pandas, and machine learning. On the sports side, while the Stanford coaches may touch on many aspects of data collection and analysis, the main focus of this course is on using data for strategic decision-making rather than optimizing individual human performance. Prerequisites: No background in statistics or data analysis is needed, but basic programming and computing skills at the level of high school computer science or CS106A is expected. On the flip side, students with extensive experience in coding or data science may not be challenged by the technical aspects of the course.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 51",
+    "courseName": "CS + Social Good Studio: Designing Social Impact Projects",
+    "courseDescription": "Get real-world experience researching and developing your own social impact project! Students work in small teams to develop high-impact projects around problem domains provided by partner organizations, under the guidance and support of design/technical coaches from industry and non-profit domain experts. Main class components are workshops, community discussions, guest speakers and mentorship. Studio provides an outlet for students to create social change through CS while engaging in the full product development cycle on real-world projects. The class culminates in a showcase where students share their project ideas and Minimum Viable Product prototypes with stakeholders and the public. Application required; please see cs51.stanford.edu for more information. Designated a Cardinal Course by the Haas Center for Public Service.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 52",
+    "courseName": "CS + Social Good Studio: Implementing Social Good Projects",
+    "courseDescription": "Continuation of CS51 (CS + Social Good Studio). Teams enter the quarter having completed and tested a minimal viable product (MVP) with a well-defined target user, and a community partner. Students will learn to apply scalable technical frameworks, methods to measure social impact, tools for deployment, user acquisition techniques and growth/exit strategies. The purpose of the class is to facilitate students to build a sustainable infrastructure around their product idea. CS52 will host mentors, guest speakers and industry experts for various workshops and coaching-sessions. The class culminates in a showcase where students share their projects with stakeholders and the public. Prerequisite: CS 51, or consent of instructor.",
+    "prerequisites": [
+      "CS 51",
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 53N",
+    "courseName": "How Can Generative AI Help Us Learn? (DESIGN 183N)",
+    "courseDescription": "This seminar course will explore the science behind generative AI, the likely future of tools such as DALL-E, ChatGPT, GPT-4, and Bard, and the implications for education, both in and outside of structured school environments. Students in the course will work in teams to each become experts in some aspect of AI and in some way that generative AI could create a new future for education. The background for this course is the public release of ChatGPT, which created new awareness of the potential power of AI to dramatically change our lives. In considering the possible implications for education, ChatGPT has sparked dreams of automated personal tutors, customizable teaching assistance, AI-led collaborative learning, and revolutions in assessment. In addition to optimistic projections, there are clear and significant risks. For example, will AI-assisted learning be culturally appropriate and equally available to all? Can it increase opportunity for underprivileged learners worldwide, or will it accentuate privilege and privileged views? Will it help us learn faster, or distract us from thinking deeply about difficult problems ourselves? As experienced student learners, members of the class will be able to draw on their own educational history and design learning approaches that could change the future of their education and others in college or at other stages of their lives.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 83N",
+    "courseName": "Playback Theater",
+    "courseDescription": "Playback combines elements of theater, community work and storytelling. In a playback show, a group of actors and musicians create an improvised performance based on the audience's personal stories. A playback show brings about a powerful listening and sharing experience. During the course, we will tell, listen, play together, and train in playback techniques. We will write diaries to process our experience in the context of education and research. The course is aimed to strengthen listening abilities, creativity and the collaborative spirit, all integral parts of doing great science. In playback, as in research, we are always moving together, from the known, to the unknown, and back. There is limited enrollment for this class. Application is required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 91SI",
+    "courseName": "Digital Canvas: An Introduction to UI/UX Design",
+    "courseDescription": "In this course, students learn digital design in a low-stress environment. We will teach the essential concepts of UI/UX design and create actual user interfaces in a project-based format. By the end of the class, students will have experience in creating handoff-ready interactive high-fidelity mockups for a realistic product feature. This course covers what makes a good or bad interface, effective design techniques from the ground up, and how to execute on design principles using the tool Figma. Limited enrollment - admission determined by short application due 11:59 PM on Jan 6: https://forms.gle/LAb2Rx3VJh3BR9is8. No required prerequisites. Recommended: some prior experience in product design, human-computer interaction, or front-end engineering",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 99",
+    "courseName": "Functional Programming and Theorem Proving in Lean 4",
+    "courseDescription": "Objectives: Historically, mathematics and reasoning has almost always been done in prose: natural language text describing the relevant steps and logic involved. With the help of Proof Assistants, computers can automatically check mathematical proofs and reasoning. In this course we will give an introduction to Lean 4, a proof assistant and purely functional programming language. We introduce Lean first as a programming language for the first half of the course. In the latter half of the course, we explain its proof assistant features. Topics: Abstract data types, monads, error handling, type instances, type theory, specifically the calculus of inductive constructions (CIC), expression- and tactic-based theorem proving, and various libraries in Mathlib4. Target Audience: Students who want to learn about formalizing mathematics are the primary audience. The goal of the course is not to learn advanced mathematical concepts since the mathematical part stops at differential calculus. Students only need a reasonable aptitude in mathematics as a prerequisite. The secondary audience are researchers",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 100ACE",
+    "courseName": "Problem-solving Lab for CS106A",
+    "courseDescription": "Additional problem solving practice for the introductory CS course CS 106A. Sections are designed to allow students to acquire a deeper understanding of CS and its applications, work collaboratively, and develop a mastery of the material. Limited enrollment, permission of instructor required. Concurrent enrollment in CS 106A required.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 100BACE",
+    "courseName": "Problem-solving Lab for CS106B",
+    "courseDescription": "Additional problem solving practice for the introductory CS course CS106B. Sections are designed to allow students to acquire a deeper understanding of CS and its applications, work collaboratively, and develop a mastery of the material. Limited enrollment, permission of instructor required. Concurrent enrollment in CS 106B required.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 103",
+    "courseName": "Mathematical Foundations of Computing",
+    "courseDescription": "What are the theoretical limits of computing power? What problems can be solved with computers? Which ones cannot? And how can we reason about the answers to these questions with mathematical certainty? This course explores the answers to these questions and serves as an introduction to discrete mathematics, computability theory, and complexity theory. At the completion of the course, students will feel comfortable writing mathematical proofs, reasoning about discrete structures, reading and writing statements in first-order logic, and working with mathematical models of computing devices. Throughout the course, students will gain exposure to some of the most exciting mathematical and philosophical ideas of the late nineteenth and twentieth centuries. Specific topics covered include formal mathematical proofwriting, propositional and first-order logic, set theory, binary relations, functions (injections, surjections, and bijections), cardinality, basic graph theory, the pigeonhole principle, mathematical induction, finite automata, regular expressions, the Myhill-Nerode theorem, context-free grammars, Turing machines, decidable and recognizable languages, self-reference and undecidability, verifiers, and the P versus NP question. Students with significant proofwriting experience are encouraged to instead take CS154. Students interested in extra practice and support with the course are encouraged to concurrently enroll in CS103A. Prerequisite: CS106B or equivalent. CS106B may be taken concurrently with CS103.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 103ACE",
+    "courseName": "Mathematical Problem-solving Strategies",
+    "courseDescription": "Problem solving strategies and techniques in discrete mathematics and computer science. Additional problem solving practice for CS103. In-class participation required. Prerequisite: consent of instructor. Co-requisite: CS103.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 104",
+    "courseName": "Introduction to Essential Software Systems and Tools",
+    "courseDescription": "Concepts that are prerequisites to many different CS classes, such as version control, debugging, and basic cryptography and networking, are either left for students to figure out on their own or are taught in \"crash course\" form on-the-fly during other, unrelated classes. We propose to develop a course that will teach students the skills necessary to be successful computer scientists, such as the command line, source code management and debugging, security and cryptography, containers and virtual machines, and cloud computing. In this course, students will both become proficient with practical tools and develop a deeper, intuitive understanding of the involved software systems and computer science concepts. With this deeper understanding, students can leverage critical thinking skills to intelligently and efficiently configure and troubleshoot software systems, assess the security and efficiency of particular tool usages, and synthesize new automation pipelines that integrate multiple tools. To summarize, instead of having just a cursory understanding of how to use these tools, students will learn how to most effectively use these tools to become proficient programmers and computer scientists. In addition, this course can provide a gentle introduction to potentially challenging computer science concepts (e.g., networking) that become a focus in subsequent courses and also help motivate some of the tool usages they will see later in the degree program.",
+    "prerequisites": [
+      "CS 193P",
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 105",
+    "courseName": "Introduction to Computers",
+    "courseDescription": "For non-technical majors. What computers are and how they work. Practical experience in development of websites and an introduction to programming. A survey of Internet technology and the basics of computer hardware. Students in technical fields and students looking to acquire programming skills should take 106A or 106X. Students with prior computer science experience at the level of 106 or above require consent of instructor. Prerequisite: minimal math skills.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 106A",
+    "courseName": "Programming Methodology",
+    "courseDescription": "Introduction to the engineering of computer applications emphasizing modern software engineering principles: program design, decomposition, encapsulation, abstraction, and testing. Emphasis is on good programming style and the built-in facilities of respective languages. Uses the Python programming language. No prior programming experience required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 106AX",
+    "courseName": "Programming Methodologies in JavaScript and Python (Accelerated)",
+    "courseDescription": "Introduction to the engineering of computer applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. This course targets an audience with prior programming experience, and that prior experience is leveraged so material can be covered in greater depth.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 106B",
+    "courseName": "Programming Abstractions",
+    "courseDescription": "Abstraction and its relation to programming. Software engineering principles of data abstraction and modularity. Object-oriented programming, fundamental data structures (such as stacks, queues, sets) and data-directed design. Recursion and recursive data structures (linked lists, trees, graphs). Introduction to time and space complexity analysis. Uses the programming language C++ covering its basic facilities. Prerequisite: 106A or equivalent.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 106E",
+    "courseName": "Exploring Computing",
+    "courseDescription": "This course, designed for the non-computer scientist, will provide students with a solid foundation in the concepts and terminology behind computers, the Internet, and software development. It will give you better understanding and insight when working with technology. It will be particularly useful to future managers and PMs who will work with or who will lead programmers and other tech workers. But it will be useful to anyone who wants a better understanding of tech concepts and terms. We'll start by covering the foundations of Computer Hardware, the CPU, Operating Systems, Computer Networks, and the Web. We will then use our foundation to explore a variety of tech-related topics including Computer Security (how computers are attacked and defensive measures that can be taken); Cloud Computing, Artificial Intelligence, Software Development, Human-Computer Interaction, and Computer Theory.Prerequisites: Some programming experience at the High School level of above will help students get the most out of the class, but the course can be successfully completed with no prerequisites.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 106EA",
+    "courseName": "Exploring Artificial Intelligence",
+    "courseDescription": "CS106EA will provide students with an overview of Artificial Intelligence and understanding of key AI concepts. We will examine a typical Machine Learning pipeline. We'll study different problems that ML is used to solve and common issues that arise (such as overfitting, drift, and bias). Students will learn how neural networks work and then examine specialized versions of neural networks for processing images, sequence data, and text. We'll explore generative AI systems for text and images. We'll also study societal issues related to Artificial Intelligence including ethical considerations and the implications of automation. This course will focus on providing a conceptual understanding of AI. While students will get some hands-on time working with and modifying actual artificial intelligence systems, it is not a programming class. However, students should have CS106A or comparable experience as we'll be assuming some basic understanding of programming.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 106L",
+    "courseName": "Standard C++ Programming Laboratory",
+    "courseDescription": "This class explores features of the C++ programming language beyond what's covered in CS106B. Topics include core C++ language features (e.g. const-correctness, operator overloading, templates, move semantics, and lambda expressions) and standard libraries (e.g. containers, algorithms, and smart pointers). Pre- or corequisite: CS106B or equivalent. Prerequisite: CS106B or equivalent. CS106L may be taken concurrently with CS106B.",
+    "prerequisites": [
+      "CS 106B",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 106M",
+    "courseName": "Enrichment Adventures in Programming Abstractions",
+    "courseDescription": "This enrichment add-on is a companion course to CS106B to explore additional topics and go into further depth. Specific topics to be announced per-quarter; past topics have included search engines, pattern recognition, data compression/encryption, error correction, digital signatures, and numerical recipes. Students must be co-enrolled in CS106B. Refer to cs106m.stanford.edu for more information.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 106S",
+    "courseName": "Coding for Social Good",
+    "courseDescription": "Survey course on applications of fundamental computer science concepts from CS 106B to problems in the social good space (such as health, trust & safety, government, security, education, and environment). Each week consists of in-class activities designed and delivered by student instructors. Introduces students to JavaScript and the basics of web development. Some of the topics we will cover include mental health chatbots, tumor classification with basic machine learning, sentiment analysis of tweets on refugees, the basics of open source software, and principles of cybersecurity. For more information, visit cs106s.stanford.edu. Pre/Corequisite: CS106B. Cardinal Course certified by the Haas Center for Public Service",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 107",
+    "courseName": "Computer Organization and Systems",
+    "courseDescription": "Introduction to the fundamental concepts of computer systems. Explores how computer systems execute programs and manipulate data, working from the C programming language down to the microprocessor. Topics covered include: the C programming language, data representation, machine-level code, computer arithmetic, elements of code compilation, memory organization and management, and performance evaluation and optimization. Prerequisites: 106B or X, or consent of instructor. Students may not earn credit for both CS 107 and CS 107E.",
+    "prerequisites": [
+      "CS 106B",
+      "CS 107E"
+    ]
+  },
+  {
+    "courseNumber": "CS 107ACE",
+    "courseName": "Problem-solving Lab for CS107",
+    "courseDescription": "Additional problem solving practice for the introductory CS course CS107. Sections are designed to allow students to acquire a deeper understanding of CS and its applications, work collaboratively, and develop a mastery of the material. Limited enrollment, permission of instructor required. Concurrent enrollment in CS 107 required.",
+    "prerequisites": [
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 107E",
+    "courseName": "Computer Systems from the Ground Up",
+    "courseDescription": "Introduction to the fundamental concepts of computer systems through bare metal programming on the Raspberry Pi. Explores how five concepts come together in computer systems: hardware, architecture, assembly code, the C language, and software development tools. Students do all programming with a Raspberry Pi kit and several add-ons (LEDs, buttons). Topics covered include: the C programming language, data representation, machine-level code, computer arithmetic, compilation, memory organization and management, debugging, hardware, and I/O. Enrollment limited to 40. Check website for details: http://cs107e.stanford.edu on student selection process. Prerequisite: CS106B or CS106X, and consent of instructor. There is a $75 course lab fee. Students may not earn credit for both CS 107 and CS 107E.",
+    "prerequisites": [
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 109",
+    "courseName": "Introduction to Probability for Computer Scientists",
+    "courseDescription": "Topics include: counting and combinatorics, random variables, conditional probability, independence, distributions, expectation, point estimation, and limit theorems. Applications of probability in computer science including machine learning and the use of probability in the analysis of algorithms. Prerequisites: 103, 106B or X, multivariate calculus at the level of MATH 51 or CME 100 or equivalent.",
+    "prerequisites": [
+      "CS 103",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 109ACE",
+    "courseName": "Problem-solving Lab for CS109",
+    "courseDescription": "Additional problem solving practice for the introductory CS course CS109. Sections are designed to allow students to acquire a deeper understanding of CS and its applications, work collaboratively, and develop a mastery of the material. Enrollment limited to 30 students, permission of instructor required. Concurrent enrollment in CS 109 required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 111",
+    "courseName": "Operating Systems Principles",
+    "courseDescription": "Explores operating system concepts including concurrency, synchronization, scheduling, processes, virtual memory, I/O, file systems, and protection. Available as a substitute for CS110 that fulfills any requirement satisfied by CS110. Prerequisite: CS107.",
+    "prerequisites": [
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 111ACE",
+    "courseName": "Problem Solving Lab for CS111",
+    "courseDescription": "Additional design and implementation problems to complement the material taught in CS111. In-class participation is required. Prerequisite: consent of instructor. Corequisite: CS111",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 112",
+    "courseName": "Operating systems kernel implementation project",
+    "courseDescription": "Students will learn the details of how operating systems work throughfour implementation projects in the Pintos operating system. Theprojects center around threads, processes, virtual memory, and filesystems. This class should not be taken by students who have taken orplan to take CS212 or CS140. Prerequisite: CS111 or permission of theinstructor.",
+    "prerequisites": [
+      "CS 111"
+    ]
+  },
+  {
+    "courseNumber": "CS 120",
+    "courseName": "Introduction to AI Safety",
+    "courseDescription": "What is safe AI, and how do we make it? CS120 explores this question, focusing on the technical challenges of creating reliable, ethical, and aligned AI systems. We distinguish between model-specific and systemic safety issues, from examining fairness and data limitations to adversarial vulnerabilities and embedding desired behavior in AI. While primarily focusing on current solutions and their limitations through CS publications, we will also discuss socio-technical concerns of modern AI deployment, how oversight of intelligence could look like, and what future risks we might face. Topics will span reinforcement learning, computer vision, and natural language processing, focusing on interpretability, robustness, and evaluations. You will gain insights into the complexities and problems of why ensuring AI safety and reliability is challenging through lectures, readings, quizzes, and a final project. This course aims to prepare you to critically assess and contribute to safe AI development, equipping them with knowledge of cutting-edge research and ongoing debates in the field. This course has no official requirements, although we recommend some knowledge about machine learning and statistics. For more details, see also the course website: https://web.stanford.edu/class/cs120/",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 121",
+    "courseName": "Equity and Governance for Artificial Intelligence",
+    "courseDescription": "This course invites students to argue about the consensus-building processes that shape the development and governance of AI systems. This course requires writing op-eds, policy memos, and research papers, in which students will critically engage AI policy documents while debating norms of fairness, accountability, and transparency. Students will also get hands-on practice evaluating generative AI models with interactive red-teaming and automated test suites (requires a small amount of coding in a group project). Students will engage real-world legislative proposals and case studies topics including human rights, artwork, the environment, and geopolitics. This course fulfills both the ethics and Writing in the Major WiM requirements, and is designed to prepare Stanford juniors, seniors, and graduate students to participate in AI public policy design at the national and global levels. Prerequisites: PWR1, PWR2, CS106A and CS106B. While this course requires no other prerequisites, it is designed for students who are comfortable engaging in an active learning environment that will include interactive workshops, student debates, and collaborative group projects. Students will be expected to speak frequently in sections and navigate the social dynamics of multi-stakeholder negotiations. Comfort with writing short python programs and working on a Unix/Linux command-line interface will be helpful for the AI model evaluation group project.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 123",
+    "courseName": "A Hands-On Introduction to Building AI-Enabled Robots",
+    "courseDescription": "This course offers a hands-on introduction to AI-powered robotics. Unlike most introductory robotics courses, students will learn essential robotics concepts by constructing a quadruped robot from scratch and training it to perform real-world tasks. The course covers a broad range of topics critical to robot learning, including motor control, forward and inverse kinematics, system identification, simulation, and reinforcement learning. In addition, the course will expose students to the latest AI technologies for robotics, such as using computer vision and foundation models techniques to create intelligent embodied agents. Through weekly labs, students will physically build a robot quadruped named Pupper from scratch and use Pupper to learn the core robotics and AI topics. In the final four weeks, students will undertake an open-ended project using Pupper as a platform to develop embodied AI techniques, such as navigating in complex environments, following human verbal commands or gestures, or learning to be a helpful and playful companion. Note: CS123 strives to achieve a balanced distribution of seniority across the undergrad student body. Within each seniority group, enrollment of students will follow a first-come-first-served approach. Please use this form, https://docs.google.com/forms/d/e/1FAIpQLScDPi8bazMjzMV2KLJAHexqzImbAnLQojnsOLfJG0dlEXDcjg/closedform to enroll in the class. The form will be open on 3/7/2025 9:00AM Pacific Time.",
+    "prerequisites": [
+      "CS 123"
+    ]
+  },
+  {
+    "courseNumber": "CS 124",
+    "courseName": "From Languages to Information (LINGUIST 180, LINGUIST 280)",
+    "courseDescription": "NLP for extracting meaning from text and social networks on the web, and interacting with people via language. Introducing methods (from regex to large language models, via logistic regression, gradient descent, transformers and other neural networks, social networks, collaborative filtering), applications (chatbots, information retrieval, social computing, recommender systems), and ethical and social issues. Prerequisites: CS106B, Python (at the level of CS106A), CS109 (or equivalent background in probability), and programming maturity and knowledge of UNIX equivalent to CS107 (or taking CS107 or CS1U concurrently).",
+    "prerequisites": [
+      "CS 106B",
+      "CS 109",
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 129",
+    "courseName": "Applied Machine Learning",
+    "courseDescription": "(Previously numbered CS 229A.) You will learn to implement and apply machine learning algorithms. This course emphasizes practical skills, and focuses on giving you skills to make these algorithms work. You will learn about commonly used learning techniques including supervised learning algorithms (logistic regression, linear regression, SVM, neural networks/deep learning), unsupervised learning algorithms (k-means), as well as learn about specific applications such as anomaly detection and building recommender systems. This class is taught in the flipped-classroom format. You will watch videos and complete in-depth programming assignments and online quizzes at home, then come to class for discussion sections. This class will culminate in an open-ended final project, which the teaching team will help you on. Prerequisites: Programming at the level of CS106B or 106X, and basic linear algebra such as Math 51.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 131",
+    "courseName": "Computer Vision: Foundations and Applications",
+    "courseDescription": "Computer Vision technologies are transforming automotive, healthcare, manufacturing, agriculture and many other sections. Today, household robots can navigate spaces and perform duties, search engines can index billions of images and videos, algorithms can diagnose medical images for diseases, and smart cars can see and drive safely. Lying in the heart of these modern AI applications are computer vision technologies that can perceive, understand, and reconstruct the complex visual world. This course is designed for students who are interested in learning about the fundamental principles and important applications of Computer Vision. This course will introduce a number of fundamental concepts in image processing and expose students to a number of real-world applications. It will guide students through a series of projects to implement cutting-edge algorithms. There will be optional discussion sections on Fridays. Prerequisites: Students should be familiar with Python, Calculus & Linear Algebra.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 134",
+    "courseName": "Introduction to AI Governance (STS 14)",
+    "courseDescription": "As we increasingly integrate AI into our lives, addressing the challenges that arise requires both technical expertise and governance strategies. This course empowers students to navigate the complex intersection of technology and policy, equipping them with the tools to understand and shape the future of AI governance. Designed for students from all backgrounds, the course explores AI governance at the organizational, national, and international levels. Through in-depth analysis of current frameworks and mechanisms, students will assess how governance relies on technical measures and examine their feasibility within today's technological landscape. More details at https://web.stanford.edu/class/sts14/index.html",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 137A",
+    "courseName": "Principles of Robot Autonomy I (AA 174A, EE 160A)",
+    "courseDescription": "Basic principles for endowing mobile autonomous robots with perception, planning, and decision-making capabilities. Algorithmic approaches for robot perception, localization, and simultaneous localization and mapping; control of non-linear systems, learning-based control, and robot motion planning; introduction to methodologies for reasoning under uncertainty, e.g., (partially observable) Markov decision processes. Extensive use of the Robot Operating System (ROS) for demonstrations and hands-on activities. Prerequisites: CS 106A or equivalent, CME 100 or equivalent (for linear algebra), and CME 106 or equivalent (for probability theory).",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 139",
+    "courseName": "Human-Centered AI",
+    "courseDescription": "Artificial Intelligence technology can and must be guided by human concerns. The course examines how mental models and user models of AI systems are formed, and how that leads to user expectations. This informs a set of design guidelines for building AI systems that are trustworthy, understandable, fair, and beneficial. The course covers the impact of AI systems on the economy and everyday life, and ethical issues of collecting data and running systems, including respect for persons, beneficence, fairness and justice.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 140E",
+    "courseName": "Operating systems design and implementation",
+    "courseDescription": "Students will implement a simple, clean operating system (virtual memory, processes, file system) in the C programming language, on a rasberry pi computer and use the result to run a variety of devices and implement a final project. All hardware is supplied by the instructor, and no previous experience with operating systems, raspberry pi, or embedded programming is required.Enrollment is by application: https://forms.gle/1UuHUJsWSRGLSH8BA",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 143",
+    "courseName": "Compilers",
+    "courseDescription": "Principles and practices for design and implementation of compilers and interpreters. Topics: lexical analysis; parsing theory; symbol tables; type systems; scope; semantic analysis; intermediate representations; runtime environments; code generation; and basic program analysis and optimization. Students construct a compiler for a simple object-oriented language during course programming projects. Prerequisites: 103 or 103B, 107 equivalent, or consent from instructor.",
+    "prerequisites": [
+      "CS 103",
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 144",
+    "courseName": "Introduction to Computer Networking",
+    "courseDescription": "Principles and practice. Structure and components of computer networks, with focus on the Internet. Packet switching, layering, and routing. Transport and TCP: reliable delivery over an unreliable network, flow control, congestion control. Network names, addresses and ethernet switching. Includes significant programming component in C/C++; students build portions of the internet TCP/IP software. Prerequisite: CS110.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 145",
+    "courseName": "Introduction to Big Data Systems",
+    "courseDescription": "Introduction to the use, design, and implementation of database and data-intensive systems, including data models; schema design; data storage; query processing, query optimization, and cost estimation; concurrency control, transactions, and failure recovery; distributed and parallel execution; semi-structured databases; and data system support for advanced analytics and machine learning. Prereqs: CS106B or CS106X; CS103. Need to have a basic understanding of RAM, disks, sorting/hashing algorithms. Soft prereqs: One of CS161 or CS111.",
+    "prerequisites": [
+      "CS 103",
+      "CS 106A",
+      "CS 161",
+      "CS 111"
+    ]
+  },
+  {
+    "courseNumber": "CS 147",
+    "courseName": "Introduction to Human-Computer Interaction Design",
+    "courseDescription": "Introduces fundamental methods and principles for designing, implementing, and evaluating user interfaces. Topics: user-centered design, rapid prototyping, experimentation, direct manipulation, cognitive principles, visual design, social software, software tools. Learn by doing: work with a team on a quarter-long design project, supported by lectures, readings, and studios. Prerequisite: 106B or X or equivalent programming experience. Recommended that CS Majors have also taken one of 142, 193P, or 193A.nnPlease note: Less than 5 is only allowed for graduate students.",
+    "prerequisites": [
+      "CS 193P",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 147L",
+    "courseName": "Cross-platform Mobile App Development",
+    "courseDescription": "The fundamentals of cross-platform mobile application development with a focus on the React Native framework (RN). Primary focus on developing best practices in creating apps for both iOS and Android by using Javascript and existing web + mobile development paradigms. Students will explore the unique aspects that made RN a primary tool for mobile development within Facebook, Instagram, Airbnb, Walmart, Tesla, and UberEats. Skills developed over the course will be consolidated by the completion of a final project. Required Prerequisites: CS106B.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 148",
+    "courseName": "Introduction to Computer Graphics and Imaging",
+    "courseDescription": "This is the introductory prerequisite course in the computer graphics sequence which introduces students to the technical concepts behind creating synthetic computer generated images. The beginning of the course focuses on using Blender to create visual imagery, as well as an understanding of the underlying mathematical concepts including triangles, normals, interpolation, texture mapping, bump mapping, etc. Then we move on to a more fundamental understanding of light and color, as well as how it impacts computer displays and printers. From this we discuss more thoroughly how light interacts with the environment, and we construct engineering models such as the BRDF and discuss various simplifications into more basic lighting and shading models. Finally, we discuss ray tracing technology for creating virtual images, while drawing parallels between ray tracers and real world cameras in order to illustrate various concepts. Anti-aliasing and acceleration structures are also discussed. The final class project consists of building out a ray tracer to create a visually compelling image. Starter codes and code bits will be provided here and there to aid in development, but this class focuses on what you can do with the code as opposed to what the code itself looks like. Therefore grading is weighted towards in person \"demos\" of the code in action - creativity and the production of impressive visual imagery are highly encouraged.This is the first course in the computer graphics sequence at Stanford. Topics include: Scanline Rendering; Triangles; Rasterization; Transformations; Shading; Triangle Meshes; Subdivision; Marching Cubes; Textures; Light; Color; Cameras; Displays; Tone Mapping; BRDF; Lighting Equation; Global Illumination; Radiosity; Ray Tracing; Acceleration Structures; Sampling; Antialiasing; Reflection; Transmission; Depth of Field; Motion Blur; Monte Carlo; Bidirectional Ray Tracing; Light Maps.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 149",
+    "courseName": "Parallel Computing",
+    "courseDescription": "This course is an introduction to parallelism and parallel programming. Most new computer architectures are parallel; programming these machines requires knowledge of the basic issues of and techniques for writing parallel software. Topics: varieties of parallelism in current hardware (e.g., fast networks, multicore, accelerators such as GPUs, vector instruction sets), importance of locality, implicit vs. explicit parallelism, shared vs. non-shared memory, synchronization mechanisms (locking, atomicity, transactions, barriers), and parallel programming models (threads, data parallel/streaming, MapReduce, Apache Spark, SPMD, message passing, SIMT, transactions, and nested parallelism). Significant parallel programming assignments will be given as homework. The course is open to students who have completed the introductory CS course sequence through 111.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 151",
+    "courseName": "Logic Programming",
+    "courseDescription": "Logic Programming is a style of programming based on symbolic logic. In writing a logic program, the programmer describes the application area of the program (as a set of logical sentences) without reference to the internal data structures or operations of the system executing the program. In this regard, a logic program is more of a specification than an implementation; and logic programs are often called runnable specifications. This course introduces basic logic programming theory, current technology, and examples of common applications, notably deductive databases, logical spreadsheets, enterprise management, computational law, and game playing. Work in the course takes the form of readings and exercises, weekly programming assignments, and a term-long project. Prerequisite: CS 106B or equivalent.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 152",
+    "courseName": "Trust and Safety (COMM 122, INTLPOL 267)",
+    "courseDescription": "Trust and Safety is an emerging field of professional and academic effort to build technologies that allow people to positively use the internet while being safe from harm. This course provides an introduction to the ways online services are abused to cause real human harm and the potential social, operational, product, legal and engineering responses. Students will learn about fraud, account takeovers, the use of social media by terrorists, misinformation, child exploitation, harassment, bullying and self-harm. This will include studying both the technical and sociological roots of these harms and the ways various online providers have responded. The class is taught by a practitioner, a professor of communication, a political scientist, and supplemented by guest lecturers from tech companies and nonprofits. Cross-disciplinary teams of students will spend the quarter building a technical and policy solution to a real trust and safety challenge, which will include the application of AI technologies to detecting and stopping abuse. For those taking this course for CS credit, the prerequisite is CS106B or equivalent programming experience and this course fulfills the Technology in Society requirement. Content note: This class will cover real-world harmful behavior and expose students to potentially upsetting material.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 153",
+    "courseName": "Infrastructure at Scale",
+    "courseDescription": "This course is designed to help students understand the unique challenges of solving infrastructure problems at scale, and is co-taught by industry practitioners Michael Abbott (ex-GM, Apple, Twitter, Microsoft) and Anjney Midha (a16z, ex-Discord), who have led teams tackling hardware and software infrastructure for hundreds of millions of people. The format of the class will include guest lectures from experts in each theme, covering a blend of both theory and real-world scenarios. Past speakers include the CEOs, CTOs and CISOs of OpenAI, FireEye, Roblox, Cloudflare, Reddit and Google. Prerequisite: CS110/ CS111. Recommended but not required: CS155.",
+    "prerequisites": [
+      "CS 111",
+      "CS 155"
+    ]
+  },
+  {
+    "courseNumber": "CS 154",
+    "courseName": "Introduction to the Theory of Computation",
+    "courseDescription": "This course provides a mathematical introduction to the following questions: What is computation? Given a computational model, what problems can we hope to solve in principle with this model? Besides those solvable in principle, what problems can we hope to efficiently solve? In many cases we can give completely rigorous answers; in other cases, these questions have become major open problems in computer science and mathematics. By the end of this course, students will be able to classify computational problems in terms of their computational complexity (Is the problem regular? Not regular? Decidable? Recognizable? Neither? Solvable in P? NP-complete? PSPACE-complete?, etc.). Students will gain a deeper appreciation for some of the fundamental issues in computing that are independent of trends of technology, such as the Church-Turing Thesis and the P versus NP problem. Prerequisites: CS 103 or 103B.",
+    "prerequisites": [
+      "CS 103"
+    ]
+  },
+  {
+    "courseNumber": "CS 155",
+    "courseName": "Computer and Network Security",
+    "courseDescription": "For juniors, seniors, and first-year graduate students. Principles of computer systems security. Attack techniques and how to defend against them. Topics include: network attacks and defenses, operating system security, application security (web, apps, databases), malware, privacy, and security for mobile devices. Course projects focus on building reliable software. Prerequisite: 110. Recommended: basic Unix.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 157",
+    "courseName": "Computational Logic",
+    "courseDescription": "Rigorous introduction to Symbolic Logic from a computational perspective. Encoding information in the form of logical sentences. Reasoning with information in this form. Overview of logic technology and its applications - in mathematics, science, engineering, business, law, and so forth. Topics include the syntax and semantics of Propositional Logic, Relational Logic, and Herbrand Logic, validity, contingency, unsatisfiability, logical equivalence, entailment, consistency, natural deduction (Fitch), mathematical induction, resolution, compactness, soundness, completeness.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 161",
+    "courseName": "Design and Analysis of Algorithms",
+    "courseDescription": "Worst and average case analysis. Recurrences and asymptotics. Efficient algorithms for sorting, searching, and selection. Data structures: binary search trees, heaps, hash tables. Algorithm design techniques: divide-and-conquer, dynamic programming, greedy algorithms, amortized analysis, randomization. Algorithms for fundamental graph problems: minimum-cost spanning tree, connected components, topological sort, and shortest paths. Possible additional topics: network flow, string searching. Prerequisite: 106B or 106X; 103 or 103B; 109 or STATS 116.",
+    "prerequisites": [
+      "CS 106B",
+      "CS 103",
+      "CS 109"
+    ]
+  },
+  {
+    "courseNumber": "CS 161ACE",
+    "courseName": "Problem-Solving Lab for CS161",
+    "courseDescription": "Additional problem solving practice for CS161. Sections are designed to allow students to acquire a deeper understanding of CS and its applications, work collaboratively, and develop a mastery of the material. Concurrent enrollment in CS 161 required. Limited enrollment, permission of instructor, and application required.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 166",
+    "courseName": "Advanced Data Structures",
+    "courseDescription": "This course is a deep dive into the design, analysis, implementation, and theory of data structures. Over the course of the quarter, we'll explore fundamental techniques in data structure design (isometries, amortization, randomization, etc.), as well as perspectives and intuitions useful for developing new data structures. By the time we've finished, we'll have seen some truly beautiful strategies for solving problems efficiently. Possible topics include Fibonacci heaps, fusion trees, succinct rank and select, B-trees, range minimum queries, suffix trees, dynamic connectivity, cuckoo hashing, and planar point location. Prerequisites: CS107 and CS161.",
+    "prerequisites": [
+      "CS 107",
+      "CS 161"
+    ]
+  },
+  {
+    "courseNumber": "CS 170",
+    "courseName": "Stanford Laptop Orchestra: Composition, Coding, and Performance (MUSIC 128)",
+    "courseDescription": "Classroom instantiation of the Stanford Laptop Orchestra (SLOrk) which includes public performances. An ensemble of more than 20 humans, laptops, controllers, and special speaker arrays designed to provide each computer-mediated instrument with its sonic identity and presence. Topics and activities include issues of composing for laptop orchestras, instrument design, sound synthesis, programming, and live performance. May be repeated four times for credit. Space is limited; see https://ccrma.stanford.edu/courses/128 for information about the application and enrollment process. May be repeat for credit",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 171",
+    "courseName": "Causality, Decision Making and Data Science (DATASCI 161, ECON 115)",
+    "courseDescription": "Policymakers often need to make decisions when the implications of those decisions are not known with certainty. In many cases they rely in part on statistical evidence to guide these decisions. This requires statistical methods for estimating causal effects, that is the impact of these interventions. In this course we study how to analyze causal questions using statistical methods. We look at several causal questions in detail. For each case, we study various statistical and econometric methods that may shed light on these questions. We discuss what the critical assumptions are that underly these methods and how to assess whether the methods are appropriate for the settings at hand. We then analyze data sets, partly in class, and partly in assignments, to see how much we learn in practice. Pre-requisites: One quarter course in statistics, at the level of STATS 116 or STATS 117. Programming experience with Python will be helpful but is not required. Note: Enrollment is limited and you need a permission number to enroll in this course. If you are interested, please fill out this form, ideally before September 12: https://forms.gle/ND9LHBjXjpvShPBi6",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 173A",
+    "courseName": "Foundations of Computational Human Genomics (BIOMEDIN 173A, DBIO 173A)",
+    "courseDescription": "(Only one of 173A or 273A counts toward any CS degree program.) A coder's primer to Computational Biology through the most amazing \"source code\" known: your genome. Examine the major forces of genome \"code development\" - positive, negative and neutral selection. Learn about genome sequencing (discovering your source code from fragments); genome content: variables (genes), control-flow (gene regulation), run-time stacks (epigenomics) and memory leaks (repeats); personalized genomics and genetic disease (code bugs); genome editing (code injection); ultra conservation (unsolved mysteries) and code modifications behind amazing animal adaptations. Course includes primers on molecular biology and text processing. Prerequisites: comfortable coding in Python from the command line.",
+    "prerequisites": [
+      "CS 173A"
+    ]
+  },
+  {
+    "courseNumber": "CS 177",
+    "courseName": "Human Centered Product Management",
+    "courseDescription": "Ask any product person what the most important skills are for PMs and they'll say interpersonal dynamics-- negotiation, communication, conflict resolution, interviewing and more. This class will look at the role of product management through a human-centered lens, including customers and coworkers. As well, students will experience the Agile-Lean-UX development process. Course enrollment will be capped, an application will be sent out first day of class. Prerequisite: CS106A&B or equivalent. This class could be taken before or after 147.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 180",
+    "courseName": "Digital Systems Architecture (EE 180)",
+    "courseDescription": "The design of processor-based digital systems. Instruction sets, addressing modes, data types. Assembly language programming, low-level data structures, introduction to operating systems and compilers. Processor microarchitecture, microprogramming, pipelining. Memory systems and caches. Input/output, interrupts, buses and DMA. System design implementation alternatives, software/hardware tradeoffs. Labs involve the design of processor subsystems and processor-based embedded systems. Formerly EE 108B. Prerequisite: one of CS107 or CS 107E (required) and EE108 (recommended but not required).",
+    "prerequisites": [
+      "CS 107",
+      "CS 107E"
+    ]
+  },
+  {
+    "courseNumber": "CS 182",
+    "courseName": "Ethics, Public Policy, and Technological Change (COMM 180, ETHICSOC 182, PHIL 82, POLISCI 182, PUBLPOL 182)",
+    "courseDescription": "Examination of recent developments in computing technology and platforms through the lenses of philosophy, public policy, social science, and engineering. Course is organized around four main units: algorithmic decision-making and bias; data privacy and civil liberties; the power of private computing platforms; and the impact of generative AI. Each unit considers the promise, perils, rights, and responsibilities at play in technological developments. Prerequisite: CS106A.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 182W",
+    "courseName": "Ethics, Public Policy, and Technological Change (WIM)",
+    "courseDescription": "Writing-intensive version of CS182. Satisfies the WIM requirement for Computer Science, Engineering Physics, STS, Math/Comp Sci, and Data Science undergraduates (and is only open to those majors). Prerequisite: CS106A. See CS182 for lecture day/time information for location/time of class. Enroll in either CS 182 or CS 182W, not both. Enrollment in WIM version of the course is limited to 100 students. Enrollment is restricted to seniors and coterminal students until January 6, 2025. Starting January 6, 2025, enrollment will open to all students if additional spaces remain available in the class.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 183E",
+    "courseName": "Effective Leadership in High-Tech",
+    "courseDescription": "You will undoubtedly leave Stanford with the technical skills to excel in your first few jobs. But non-technical skills are just as critical to making a difference. This seminar is taught by two industry veterans in engineering leadership and product management. In a small group setting, we will explore how you can be a great individual contributor (communicating with clarity, getting traction for your ideas, resolving conflict, and delivering your best work) and how you can transition into leadership roles (finding leadership opportunities, creating a great team culture, hiring and onboarding new team members). We will end by turning back to your career (picking your first job and negotiating your offer, managing your career changes, building a great network, and succeeding with mentors). Prerequisites: Preference given to seniors and co-terms in Computer Science and related majors. Enrollment limited and application required for admittance. Application (https://forms.gle/PaBcMmjratNGGtEi8) due 9/13/24.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 186",
+    "courseName": "How to Make a Moral Agent (PHIL 86)",
+    "courseDescription": "Is it bad if you lie to ChatGPT? Who is to blame if ChatGPT lies? Should we let superhuman AI make life and death decisions? These questions ask whether advanced AI systems (today, often large language models - LLMs) can be moral agents - whether they are the kind of thing that can know how to make (ethically) correct decisions, and be held responsible for the rights or wrongs they do. Asking these questions leads us to questions about ourselves: What about us makes us moral agents? Is it our reason? Or is it essential that we emotionally feel each others' pain? Is selfishness irrational, or just unpleasant? Understanding ourselves can help us think about what kinds of artificial minds we would like to make, and, if we can, how. In this class, we provide the philosophical rigor and technical background necessary to robustly interrogate these and related questions. Readings will be drawn from philosophy, deep learning, and the cognitive sciences. The major assessment in this class will be a term project. There will be reading assignments for every class, and a mix of lectures, discussions, and participatory in-class activities. Recommended prerequisites: PHIL 80 or multiple philosophy courses; CS 183.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 191",
+    "courseName": "Senior Project",
+    "courseDescription": "Restricted to Computer Science students. Individual research projects under faculty direction. Enroll in the section that is led by your research instructor. The project must consist of publishable research. The research project may result in a paper publishable to an academic journal or presentable at a conference. A public presentation of research results is required. Prerequisite: Completion of at least 135 units and consent of instructor. Project proposal form is required before the beginning of the quarter of enrollment: https://www.cs.stanford.edu/bs-requirements-senior-project",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 191W",
+    "courseName": "Writing Intensive Senior Research Project",
+    "courseDescription": "Restricted to Computer Science students. Writing-intensive version of CS191. Enroll in the section that is led by your research instructor. Prerequisite: Completion of at least 135 units and consent of instructor. Project proposal form is required before the beginning of the quarter of enrollment: https://www.cs.stanford.edu/bs-requirements-senior-project",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 192",
+    "courseName": "Programming Service Project",
+    "courseDescription": "Restricted to Computer Science students. Appropriate academic credit (without financial support) is given for volunteer computer programming work of public benefit and educational value. Enroll in the section that is led by your research instructor. Prerequisite: consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 193C",
+    "courseName": "Client-Side Internet Technologies",
+    "courseDescription": "Client-side technologies used to create web sites such as Google maps or Gmail. Includes HTML5, CSS, JavaScript, the Document Object Model (DOM), and Ajax. Prerequisite: programming experience at the level of CS106A.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 193P",
+    "courseName": "iOS Application Development",
+    "courseDescription": "Build mobile applications using tools and APIs in iOS. Developing applications for the iPhone and iPad requires integration of numerous concepts including functional programming, object-oriented programming, computer-human interfaces, graphics, animation, reactive interfaces, Model-View-Intent (MVI) and Model-View-View-Model (MVVM) design paradigms, object-oriented databases, networking, and interactive performance considerations including multi-threading. This course will require you to learn a new programming language (Swift) as well as the iOS development environment, SwiftUI. Prerequisites: All coursework (homework and final project) involves writing code, so writing a lot of code should not be new to you (coding experience in almost any language is valuable, but object-oriented (e.g. CS108) and/or functional programming languages (e.g. CS43) are most highly recommended).  CS106A and B (or X) and CS107 (or equivalent) are hard prerequisites. Any other courses that help to develop your maturity as a programmer are also recommended.",
+    "prerequisites": [
+      "CS 106A",
+      "CS 107"
+    ]
+  },
+  {
+    "courseNumber": "CS 193Q",
+    "courseName": "Introduction to Python Programming",
+    "courseDescription": "CS193Q teaches basic Python programming with a similar end-condition to CS106AP: strings, lists, numbers, dicts, loops, logic, functions, testings, decomposition and style, and modules. CS193Q assumes knowledge of some programming language, and proceeds by showing how each common programming idea is expressed in Python. CS193Q moves very quickly, meeting 3 times for 4 hours for a total of 12 hours which is a mixture of lecture and lab time.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 194",
+    "courseName": "Software Project",
+    "courseDescription": "Design, specification, coding, and testing of a significant team programming project under faculty supervision. Documentation includes capture of project rationale, design and discussion of key performance indicators, a weekly progress log and a software architecture diagram. Public demonstration of the project at the end of the quarter. Preference given to seniors. May be repeated for credit. Prerequisites: CS109 and CS161.",
+    "prerequisites": [
+      "CS 109",
+      "CS 161"
+    ]
+  },
+  {
+    "courseNumber": "CS 194W",
+    "courseName": "Software Project (WIM)",
+    "courseDescription": "Restricted to Computer Science and Electrical Engineering undergraduates. Writing-intensive version of CS194. Preference given to seniors. Prerequisites: CS109 and CS161.",
+    "prerequisites": [
+      "CS 109",
+      "CS 161"
+    ]
+  },
+  {
+    "courseNumber": "CS 195",
+    "courseName": "Supervised Undergraduate Research",
+    "courseDescription": "Directed research under faculty supervision. Register using instructor's section number. Students are required to submit a written report and give a public presentation on their work. Prerequisite: consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 197",
+    "courseName": "Computer Science Research",
+    "courseDescription": "An onramp for students interested in breaking new ground in the frontiers of computer science. Course format features faculty lectures introducing the fundamentals of computer science research, alongside special interest group meetings that provide mentorship and feedback on a real research project. Lecture topics include reading technical papers, practicing oral communication and technical writing skills, and independently formulating research questions. Any student may enroll for 4 units and select a research area (AI, HCI, Systems, etc.) for a quarter-long team programming project with a Ph.D. student mentor. Space may be limited. Prerequisite: CS106B.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 197C",
+    "courseName": "Computer Science Research: CURIS Internship Onramp",
+    "courseDescription": "A version of CS 197 designed specifically for students who will be participating in spring/summer CURIS internships OR have an ongoing research project with a (Ph.D. student or professor) mentor in the Stanford Computer Science department. An onramp for students interested in breaking new ground in the frontiers of computer science. Course format features faculty lectures introducing the fundamentals of computer science research, alongside mentorship and feedback from the CURIS or research mentor on a real research project. Students will attend the same lectures as CS197 and may enroll for 3 units. Lecture topics include reading technical papers, practicing oral communication and technical writing skills, and independently formulating research questions. Students must have commitment from their CURIS or research mentor for weekly check-in meetings. Prerequisite: CS106B.",
+    "prerequisites": [
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 198",
+    "courseName": "Teaching Computer Science",
+    "courseDescription": "Students lead a discussion section of 106A while learning how to teach a programming language at the introductory level. Focus is on teaching skills, techniques, and course specifics. Application and interview required; see http://cs198.stanford.edu.",
+    "prerequisites": [
+      "CS 106A"
+    ]
+  },
+  {
+    "courseNumber": "CS 198B",
+    "courseName": "Additional Topics in Teaching Computer Science",
+    "courseDescription": "Students build on the teaching skills developed in CS198. Focus is on techniques used to teach topics covered in CS106B. Prerequisite: successful completion of CS198.",
+    "prerequisites": [
+      "CS 198",
+      "CS 106B"
+    ]
+  },
+  {
+    "courseNumber": "CS 199",
+    "courseName": "Independent Work",
+    "courseDescription": "Special study under faculty direction, usually leading to a written report. Enroll in the section that is led by your research instructor. Letter grade; if not appropriate, enroll in CS199P. Prerequisite: consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 199P",
+    "courseName": "Independent Work",
+    "courseDescription": "Special study under faculty direction, usually leading to a written report. Enroll in the section that is led by your research instructor. CR/NC only, if not appropriate, enroll in CS199. Prerequisite: consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 202",
+    "courseName": "Law for Computer Science Professionals",
+    "courseDescription": "Businesses are built on ideas. Today's successful companies are those that most effectively generate, protect, and exploit new and valuable business ideas. Over the past 40 years, intellectual capital has emerged as the leading assets class. Ocean Tomo\u00ae estimates that over 80% of the market value of S&P 500 corporations now stems from intangible assets, which consist largely of intellectual property (IP) assets (e.g., the company and product names, logos and designs; patentable inventions; proprietary software and databases, and other proprietary product, manufacturing and marketing information). It is therefore vital for entrepreneurs and other business professionals to have a basic understanding of IP and how it is procured, protected, and exploited. This course provides an overview of the many and varied IP issues that students will confront during their careers. It is intended to be both informative and fun. Classes will cover the basics of patent, trademark, copyright, and trade secret law. Current issues in these areas will be covered, including patent protection for software and business methods, copyrightability of computer programs and APIs, issues relating to artificial intelligence, and the evolving protection for trademarks and trade secrets. Emerging issues concerning the federal Computer Fraud & Abuse Act (CFAA) and hacking will be covered, as will employment issues, including employee proprietary information and invention assignment agreements, work made for hire agreements, confidentiality agreements, non-compete agreements and other potential post-employment restrictions. Recent notable lawsuits will be discussed, including Apple v. Samsung (patents), Alice Corp. v. CLS Bank (software and business method patents), Oracle v. Google (software/APIs), Waymo v. Uber (civil and criminal trade secret theft), and hiQ v. LinkedIn (CFAA). IP law evolves constantly and new headline cases that arise during the term are added to the class discussion. Guest lectures typically include experts on open source software; legal and practical issues confronted by business founders; and, consulting and testifying as an expert in IP litigation. Although many of the issues discussed will involve technology disputes, the course also covers IP issues relating to art, music, photography, and literature. Classes are presented in an open discussion format and they are designed to be enjoyed by students of all backgrounds and areas of expertise.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 204",
+    "courseName": "Computational Law",
+    "courseDescription": "Computational Law is an innovative approach to legal informatics concerned with the representation of regulations in computable form. From a practical perspective, Computational Law is important as the basis for computer systems capable of performing useful legal calculations, such as compliance checking, legal planning, and regulatory analysis. In this course, we look at the theory of Computational Law, we review relevant technology and applications, we discuss the prospects and problems of Computational Law, and we examine its philosophical and legal implications. Work in the course consists of reading, class discussion, and practical exercises.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 205L",
+    "courseName": "Continuous Mathematical Methods with an Emphasis on Machine Learning",
+    "courseDescription": "A survey of numerical approaches to the continuous mathematics used throughout computer science with an emphasis on machine and deep learning. Although motivated from the standpoint of machine learning, the course will focus on the underlying mathematical methods including computational linear algebra and optimization, as well as special topics such as automatic differentiation via backward propagation, momentum methods from ordinary differential equations, CNNs, RNNs, etc. Written homework assignments and (straightforward) quizzes focus on various concepts; additionally, students can opt in to a series of programming assignments geared towards neural network creation, training, and inference. (Replaces CS205A, and satisfies all similar requirements.) Prerequisites: Math 51; Math104 or MATH113 or equivalent or comfort with the associated material.",
+    "prerequisites": [
+      "CS 51"
+    ]
+  },
+  {
+    "courseNumber": "CS 206",
+    "courseName": "Exploring Computational Journalism (COMM 281)",
+    "courseDescription": "This project-based course will explore the field of computational journalism, including the use of Data Science, Info Visualization, AI, and emerging technologies to help journalists discover and tell stories, understand their audience, advance free speech, and build trust. This course is repeatable for credit; enrollment priority given to students taking it for the first time.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 210A",
+    "courseName": "Software Project Experience with Corporate Partners",
+    "courseDescription": "Two-quarter project course. Focus is on real-world software development. Corporate partners seed projects with loosely defined challenges from their R&D labs; students innovate to build their own compelling software solutions. Student teams are treated as start-up companies with a budget and a technical advisory board comprised of instructional staff and corporate liaisons. Teams will typically travel to the corporate headquarters of their collaborating partner, meaning some teams will travel internationally. Open loft classroom format such as found in Silicon Valley software companies. Exposure to: current practices in software engineering; techniques for stimulating innovation; significant development experience with creative freedoms; working in groups; real-world software engineering challenges; public presentation of technical work; creating written descriptions of technical work. Prerequisites: CS109 and CS161.",
+    "prerequisites": [
+      "CS 109",
+      "CS 161"
+    ]
+  },
+  {
+    "courseNumber": "CS 210B",
+    "courseName": "Software Project Experience with Corporate Partners",
+    "courseDescription": "Continuation of CS210A. Focus is on real-world software development. Corporate partners seed projects with loosely defined challenges from their R&D labs; students innovate to build their own compelling software solutions. Student teams are treated as start-up companies with a budget and a technical advisory board comprised of the instructional staff and corporate liaisons. Teams will typically travel to the corporate headquarters of their collaborating partner, meaning some teams will travel internationally. Open loft classroom format such as found in Silicon Valley software companies. Exposure to: current practices in software engineering; techniques for stimulating innovation; significant development experience with creative freedoms; working in groups; real world software engineering challenges; public presentation of technical work; creating written descriptions of technical work. Prerequisites: CS 210A",
+    "prerequisites": [
+      "CS 210A"
+    ]
+  },
+  {
+    "courseNumber": "CS 212",
+    "courseName": "Operating Systems and Systems Programming",
+    "courseDescription": "Covers key concepts in computer systems through the lens of operatingsystem design and implementation. Topics include threads, scheduling,processes, virtual memory, synchronization, multi-core architectures,memory consistency, hardware atomics, memory allocators, linking, I/O,file systems, and virtual machines. Concepts are reinforced with fourkernel programming projects in the Pintos operating system. This classmay be taken as an accelerated single-class alternative to the CS111,CS112 sequence; conversely, the class should not be taken by studentswho have already taken CS111 or CS112.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 218",
+    "courseName": "Information Integrity",
+    "courseDescription": "How do we decide what information to trust? How do artificial intelligence and online media support or degrade our decisions? What does society need, beyond technology, to make good decisions the norm? Society depends on individuals making sound rational decisions on what information to trust. Those decisions depend on information integrity. The Internet is hardly the first information technology to disrupt society. History documents the mechanics of information integrity through a repeating pattern of new technology exploited by creators and destroyers of reliable information. After establishing basic context, this course will survey technologies that have transformed and disrupted society, from the invention of writing, to the book, the printing press, economical newsprint, the telegraph, and broadcast media on to the Digital Age. Lectures and assignments will explore the harms, real and imagined, of new information technologies. We'll recognize how society adapted, and practice applying these insights to the management of modern information systems.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  },
+  {
+    "courseNumber": "CS 220",
+    "courseName": "Researching, Presenting and Publishing Work in AI & Education (EDUC 481)",
+    "courseDescription": "\"Which conference or journal is the right venue for my AI+education paper? How do I get CS folks to care about my education-focused work? How do I explain AI methods to a non-technical audience in education?\" These are a few of the most common questions we hear from students seeking to navigate the emergent field at the intersection of AI and education. This seminar provides an interdisciplinary forum for PhD students and advanced masters students from education, computer science, and related fields to support them with the complexities of conducting and disseminating research across disciplinary boundaries. Through collaborative discussions, presentations, and peer feedback, students will gain insights into effectively navigating and bridging technical and educational communities' research and publication norms.",
+    "prerequisites": []
+  },
+  {
+    "courseNumber": "CS 221",
+    "courseName": "Artificial Intelligence: Principles and Techniques",
+    "courseDescription": "Artificial intelligence (AI) has had a huge impact in many areas, including medical diagnosis, speech recognition, robotics, web search, advertising, and scheduling. This course focuses on the foundational concepts that drive these applications. In short, AI is the mathematics of making good decisions given incomplete information (hence the need for probability) and limited computation (hence the need for algorithms). Specific topics include search, constraint satisfaction, game playing,n Markov decision processes, graphical models, machine learning, and logic. Prerequisites: CS 103 or CS 103B/X, CS 106B or CS 106X, CS 109, and CS 161 (algorithms, probability, and object-oriented programming in Python). We highly recommend comfort with these concepts before taking the course, as we will be building on them with little review.",
+    "prerequisites": [
+      "CS 103",
+      "CS 106B",
+      "CS 109",
+      "CS 161"
+    ]
+  },
+  {
+    "courseNumber": "CS 222",
+    "courseName": "AI Agents and Simulations",
+    "courseDescription": "How might we craft simulations of human societies that reflect our lives? Many of the greatest challenges of our time, from encouraging healthy public discourse to designing pandemic responses, and building global cooperation for sustainability, must reckon with the complex nature of our world. The power to simulate hypothetical worlds in which we can ask \"what if\" counterfactual questions, and paint concrete pictures of how a multiverse of different possibilities might unfold, promises an opportunity to navigate this complexity. This course presents a tour of multiple decades of effort in social, behavioral, and computational sciences to simulate individuals and their societies, starting from foundational literature in agent-based modeling to generative agents that leverage the power of the most advanced generative AI to create high-fidelity simulations. Along the way, students will learn about the opportunities, challenges, and ethical considerations in the field of human behavioral simulations. Prerequisites: Team projects and some course assignments will involve programming in Python. Having a background in human-centered design (e.g., CS 147, ME 115A, or a class from the d.school), AI (e.g., CS 221, CS 224), or social psychology may be helpful, although it is not required.",
+    "prerequisites": [
+      "CS 147",
+      "CS 221"
+    ]
+  },
+  {
+    "courseNumber": "CS 223A",
+    "courseName": "Introduction to Robotics (ME 320)",
+    "courseDescription": "Robotics foundations in modeling, design, planning, and control. Class covers relevant results from geometry, kinematics, statics, dynamics, motion planning, and control, providing the basic methodologies and tools in robotics research and applications. Concepts and models are illustrated through physical robot platforms, interactive robot simulations, and video segments relevant to historical research developments or to emerging application areas in the field. Recommended: matrix algebra.",
+    "prerequisites": [
+      "CS 193P"
+    ]
+  }
+]
