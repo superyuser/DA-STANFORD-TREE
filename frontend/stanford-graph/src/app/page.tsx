@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { useEffect, useState } from 'react';
 import { ForceGraph, GraphData } from '@/components/ForceGraph';
@@ -24,3 +24,5 @@ export default function Home() {
     </main>
   );
 }
+
+console.log('SUPABASE URL:', process.env.NEXT_PUBLIC_SUPABASE_URL);
