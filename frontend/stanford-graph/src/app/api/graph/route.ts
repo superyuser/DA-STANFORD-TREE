@@ -1,38 +1,56 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 
-// Initialize Supabase client using environment variables
+const NUM_COURSES_TO_DISPLAY = 5000;
+
+// Initialize Supabase client using env vars
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
 
+// Helper function to select rows in batches of 1000
+async function batchSelect(table: string, columns: string, batchSize = 1000) {
+  let allRows: any[] = [];
+  let start = 0;
+
+  while (start <= NUM_COURSES_TO_DISPLAY) {
+    const { data, error } = await supabase
+      .from(table)
+      .select(columns)
+      .range(start, start + batchSize - 1);
+
+    if (error) throw error;
+    if (!data || data.length === 0) break;
+
+    allRows = allRows.concat(data);
+    if (data.length < batchSize) break;
+
+    start += batchSize;
+  }
+
+  return allRows;
+}
+
 export async function GET() {
   try {
-    // Fetch courses and prereqs from Supabase
-    const { data: courses, error: courseError } = await supabase
-      .from('courses')
-      .select('id, code');
+    // Batch-fetch all course nodes
+    const courses = await batchSelect('courses', 'id, number');
 
-    const { data: prereqs, error: prereqError } = await supabase
-      .from('prereqs')
-      .select('course_id, prereq_id');
+    // Batch-fetch all prereq edges
+    const prereqs = await batchSelect('prereqs', 'course_id, prereq_id');
 
-    if (courseError || prereqError) {
-      throw new Error(courseError?.message || prereqError?.message);
-    }
-
-    // Build mapping from id to course code
+    // Map course IDs to course numbers
     const idToCode: Record<number, string> = {};
     const nodes = courses.map((course) => {
-      idToCode[course.id] = course.code;
+      idToCode[course.id] = course.number;
       return {
-        id: course.code,
-        label: course.code,
+        id: course.number,
+        label: course.number,
       };
     });
 
-    // Convert course_id and prereq_id into edges using course codes
+    // Build graph edges from prereq relationships
     const edges = prereqs
       .filter(row => idToCode[row.course_id] && idToCode[row.prereq_id])
       .map(row => ({

@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.28.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.3",
+    "cli-progress": "^3.12.0"
   }
 }

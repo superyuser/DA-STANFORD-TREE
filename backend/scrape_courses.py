@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from tqdm import tqdm
+from argparse import ArgumentParser
 import json
 import os
 import time
@@ -20,7 +21,7 @@ DEPARTMENT_FILEPATH = "./data/departments.json"
 
 def get_url(code):
     # this is just for spring 24-25, but can be tweaked for other quarters later if necessary
-    all_quarters_query_a = "https://explorecourses.stanford.edu/print?q=a&descriptions=on&filter-term-Winter=on&academicYear=&filter-term-Summer=on&filter-term-Autumn=on&filter-term-Spring=on&page=0&filter-coursestatus-Active=on&collapse=&catalog="
+    all_quarters_query_a = f"https://explorecourses.stanford.edu/print?q={code}&descriptions=on&academicYear=&filter-departmentcode-{code}=on&filter-catalognumber-{code}=on&page=0&filter-coursestatus-Active=on&collapse=&catalog="
     return all_quarters_query_a
 
 def scrapekCourses(code, k="all"):
@@ -67,8 +68,8 @@ def getAllCoursesForAllDeps(k=10):
         allCourses.extend(getAllCoursesFor(department, k=k))
     print("[COMPLETED]: All departments scraped!")
     writeToJSON(allCourses, filename)
+    driver.close()
 
 if __name__ == "__main__":
     k = input("Enter number of courses to scrape (default = 10): ")
     getAllCoursesForAllDeps(k)
-    driver.close()

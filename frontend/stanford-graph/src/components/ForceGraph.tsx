@@ -43,11 +43,11 @@ export const ForceGraph = ({ data }: { data: GraphData }) => {
     const edges: D3Link[] = data.edges.map((e) => ({ ...e }));
 
     const simulation = d3.forceSimulation(data.nodes)
-      .force('link', d3.forceLink<Node, D3Link>(edges).id(d => d.id).distance(60).strength(1))
-      .force('charge', d3.forceManyBody().strength(-300))
+      .force('link', d3.forceLink<Node, D3Link>(edges).id(d => d.id).distance(5).strength(3))
+      .force('charge', d3.forceManyBody().strength(100))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide().radius(20).strength(0.7))
-      .force('radial', d3.forceRadial(200, width / 2, height / 2).strength(0.3));
+      .force('radial', d3.forceRadial(100, width / 2, height / 2).strength(0.3));
 
     for (let i = 0; i < 300; ++i) simulation.tick();
     simulation.alpha(0.3).restart();
@@ -57,13 +57,13 @@ export const ForceGraph = ({ data }: { data: GraphData }) => {
       .enter()
       .append('line')
       .attr('stroke', '#aaa')
-      .attr('stroke-width', 1.3);
+      .attr('stroke-width', 0.5);
 
     const node = g.selectAll('circle')
       .data(data.nodes)
       .enter()
       .append('circle')
-      .attr('r', 15)
+      .attr('r', 5)
       .attr('fill', d => {
         const isConnected = edges.some(edge => {
           const sourceId = typeof edge.source === 'string' ? edge.source : edge.source.id;
@@ -95,7 +95,7 @@ export const ForceGraph = ({ data }: { data: GraphData }) => {
       .enter()
       .append('text')
       .text(d => d.label)
-      .attr('font-size', 12)
+      .attr('font-size', 0)
       .attr('fill', '#ffffff')
       .attr('x', 10)
       .attr('y', 4);

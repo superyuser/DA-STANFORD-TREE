@@ -1,0 +1,514 @@
+[
+    {
+        "courseNumber": "EDUC 230",
+        "courseName": "Learning Experience Design",
+        "courseDescription": "This course explores the design of tools for learning, leveraging scholarship and real-world projects to create prototypes of new digital learning tools. Students will engage in design activities to come up with prototypes of new learning tools for community partners. This year the course will focus on museums. Designing these tools will require project groups to gather and apply knowledge, evaluating options and synthesizing ideas in order to create an effective (and elegant!) solution. A community-based Cardinal Course. This course is designed to complement EDUC 281, Technology for Learners.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 231",
+        "courseName": "Learning Religion: How People Acquire Religious Commitments (AMSTUD 231X, JEWISHST 291X, RELIGST 231X)",
+        "courseDescription": "This course will examine how people learn religion outside of school, and in conversation with popular cultural texts and practices. Taking a broad social-constructivist approach to the variety of ways people learn, this course will explore how people assemble ideas about faith, identity, community, and practice, and how those ideas inform individual, communal and global notions of religion. Much of this work takes place in formal educational environments including missionary and parochial schools, Muslim madrasas or Jewish yeshivot. However, even more takes place outside of school, as people develop skills and strategies in conversation with broader social trends. This course takes an interdisciplinary approach to questions that lie at the intersection of religion, popular culture, and education. May be repeat for credit.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 233",
+        "courseName": "Contemplative Science: The Power of the Pause for Resilience, Relationships, and Resolve (CHPR 233)",
+        "courseDescription": "Advances in contemplative science reveal ways of caring for ourselves and others that promote health and well-being for individuals and communities. Study of diverse, evidence-based contemplative practices identifies why, how, and when specific practices are beneficial for health, well-being, focus, learning, self-compassion, positive emotions, empathy, communication, compassionate action, and burnout prevention. This course progresses through: 1) awareness-based self-care; 2) compassion-based interpersonal connections; and 3) purpose-based meaningful work and service. A unifying course framework facilitates insights regarding healthy processes for fulfilling fundamental human needs for safety/calm/peace, connection/compassion/love, and satisfaction/competence/joy. While the course focuses on factors that cultivate and sustain health, obstructions and impediments such as oppression and trauma are discussed. The course combines investigation of research with direct experience in an immersive, transformative learning retreat format rooted in the rhythm of contemplative ways of being, discovery, and expression. Multimodal activities include embodiment practices, meditation, breathwork, journaling, dyad listening, reflections on poetry and non-fiction, research critiques, iterative behavioral action plans, and creation of multimedia narratives. These activities provide a foundation for a lifetime of whole-person integrated ways of living, exploring, thinking, and serving. The course equips students with a body of knowledge and skills to flourish personally and professionally, develop innovative solutions to complex problems, and sustain research and service dedicated to improving health and well-being for everyone. Offered for 1-3 units via 3 weekend retreats (1-unit each) taught on the 2nd, 5th and 8th weekends of the quarter. The curriculum builds upon previous retreat topics: #1 Resilience, #2 Relationships, #3 Resolve. Register for your preferred number of units. (Retreat #1 = 1-unit; Retreats #1 + #2 = 2-units; or Retreats #1 + #2 + #3 = 3 units).",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 234",
+        "courseName": "Curiosity in Artificial Intelligence (PSYCH 240A)",
+        "courseDescription": "How do we design artificial systems that learn as we do early in life -- as \"scientists in the crib\" who explore and experiment with our surroundings? How do we make AI \"curious\" so that it explores without explicit external feedback? Topics draw from cognitive science (intuitive physics and psychology, developmental differences), computational theory (active learning, optimal experiment design), and AI practice (self-supervised learning, deep reinforcement learning). Students present readings and complete both an introductory computational project (e.g. train a neural network on a self-supervised task) and a deeper-dive project in either cognitive science (e.g. design a novel human subject experiment) or AI (e.g. implement and test a curiosity variant in an RL environment). Prerequisites: python familiarity and practical data science (e.g. sklearn or R).",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 234A",
+        "courseName": "Interactive and Embodied Learning (CS 422)",
+        "courseDescription": "Most successful machine learning algorithms of today use either carefully curated, human-labeled datasets, or large amounts of experience aimed at achieving well-defined goals within specific environments. In contrast, people learn through their agency: they interact with their environments, exploring and building complex mental models of their world so as to be able to flexibly adapt to a wide variety of tasks. One crucial next direction in artificial intelligence is to create artificial agents that learn in this flexible and robust way. Students will read and take turns presenting current works, and they will produce a proposal of a feasible next research direction. Prerequisites: CS229, CS231N, CS234 (or equivalent).",
+        "prerequisites": [
+            "EDUC 234"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 235",
+        "courseName": "Higher Education Workshop and Reading Group",
+        "courseDescription": "The Higher Education Workshop and Reading Group is a professional development course for students interested in and/or conducting research in higher education. Co-led by two faculty members, the workshop offers professional development training for future researchers and faculty members. Topics will vary but may include: Reviewing scholarly papers; constructing CVs; applying for research grants; preparing for and managing a faculty job search; pursuing book contracts; and preparing scholarly talks and lectures. Students will also have opportunities to workshop ideas and research-in-progress, as well as practice scholarly presentations. We will also have occasional guest researchers present their work to the workshop. The workshop is open to master's and doctoral students, and with instructor approval, undergraduates working on theses and senior papers.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 236",
+        "courseName": "Is GenAI Really Changing the EdTech Industry? Challenges & Opportunities Based on Business Cases",
+        "courseDescription": "Is Artificial Intelligence really disrupting the EdTech industry or do its business impacts remain elusive? Despite booming interest around AI, concrete examples of how this is actually changing the way EdTech businesses operate remain scant. In this course, students will have the opportunity to engage with EdTech entrepreneurs, board members and venture capitalists around real business cases that illustrate the opportunities and challenges linked to incorporating AI into their product when it comes to driving sales, market share, and profitability.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 237",
+        "courseName": "Learning, Making, Crafting, & Creating",
+        "courseDescription": "This is a hands-on course that introduces students to digital fabrication and 'maker' technologies used to develop prototypes of new objects and artifacts for learning. Technologies include 3D printers, electronic textiles, laser cutters, low-threshold programming environments, and micro controllers. Constructionist learning theory and current practices for design are covered. No prior technical or prototyping experience is required.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 238",
+        "courseName": "Market Oriented Policies in Education (SOC 238)",
+        "courseDescription": "Introducing market dynamics in education remains a highly controversial policy issue. In this course we will discuss the main ideas supporting the market approach in education and the key arguments against these policies; we will also review some of the evidence concerning the effects of market policies in education such as privatization, vouchers, and school choice; and finally, we will study several issues related to market oriented reforms, such as performance accountability, school segregation, and peer effects in education.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 240",
+        "courseName": "Adolescent Development and Learning",
+        "courseDescription": "How do adolescents develop their identities, manage their inner and outer worlds, and learn? Presuppositions: that fruitful instruction takes into account the developmental characteristics of learners and the task demands of specific curricula; and that teachers can promote learning and motivation by mediating among the characteristics of students, the curriculum, and the wider social context of the classroom. Prerequisite: STEP student or consent of instructor. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 244",
+        "courseName": "Classroom Management and Leadership",
+        "courseDescription": "Student and teacher roles in developing a classroom community. Strategies for classroom management within a theoretical framework. STEP secondary only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 244E",
+        "courseName": "Building Classroom Community",
+        "courseDescription": "How to best manage a classroom. Student and teacher roles in developing a classroom community. Strategies for classroom management within a theoretical framework. STEP elementary only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 244F",
+        "courseName": "Building Classroom Community",
+        "courseDescription": "Skills for developing a positive classroom learning environment. Theoretical issues and opportunities to acquire strategies and make links with practice teaching class. STEP elementary only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 245",
+        "courseName": "Understanding Racial and Ethnic Identity Development (AFRICAAM 245, CSRE 245, PSYCH 245A)",
+        "courseDescription": "This seminar will explore the impact and relative salience of racial/ethnic identity on select issues including: discrimination, social justice, mental health and academic performance. Theoretical perspectives on identity development will be reviewed, along with research on other social identity variables, such as social class, gender and regional identifications. New areas within this field such as the complexity of multiracial identity status and intersectional invisibility will also be discussed. Though the class will be rooted in psychology and psychological models of identity formation, no prior exposure to psychology is assumed and other disciplines-including cultural studies, feminist studies, and literature-will be incorporated into the course materials. Students will work with community partners to better understand the nuances of racial and ethnic identity development in different contexts. (Cardinal Course certified by the Haas Center)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246A",
+        "courseName": "Secondary Teaching Seminar: Race, Intersectionality, and Identity in Schools",
+        "courseDescription": "Preparation and practice in issues and strategies for teaching in classrooms with diverse students. Topics: instruction, curricular planning, classroom interaction processes, portfolio development, teacher professionalism, patterns of school organization, teaching contexts, and government educational policy. Classroom observation and student teaching with accompanying seminars during each quarter of STEP year. 16 units required for completion of the program. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246B",
+        "courseName": "Secondary Teaching Seminar: Leading, Building and Sustaining Classroom Communities",
+        "courseDescription": "Preparation and practice in issues and strategies for teaching in classrooms with diverse students. Topics: guided observations, building classroom community, classroom interaction processes, topics in special education portfolio development, teacher professionalism, patterns of school organization, teaching contexts, and government educational policy. Classroom observation and student teaching with accompanying seminars during each quarter of STEP year. 16 units required for completion of the program. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246C",
+        "courseName": "Secondary Teaching Seminar: Assessment for Learning and Equity",
+        "courseDescription": "Preparation and practice in issues and strategies for teaching in classrooms with diverse students. Topics: instruction, curricular planning, classroom interaction processes, portfolio development, teacher professionalism, patterns of school organization, teaching contexts, and government educational policy. Classroom observation and student teaching with accompanying seminars during each quarter of STEP year. 16 units required for completion of the program. Prerequisite: STEP student. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246D",
+        "courseName": "Secondary Teaching Seminar",
+        "courseDescription": "Preparation and practice in issues and strategies for teaching in classrooms with diverse students. Topics: instruction, curricular planning, classroom interaction processes, portfolio development, teacher professionalism, patterns of school organization, teaching contexts, and government educational policy. Classroom observation and student teaching with accompanying seminars during each quarter of STEP year. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246E",
+        "courseName": "Elementary Teaching Seminar: Exploring Teaching",
+        "courseDescription": "Integrating theory and practice in teacher development. Topics include: equity, democracy, and social justice in the context of teaching and learning; teacher reflection, inquiry, and research; parent/teacher relationships; youth development and community engagement; professional growth and development; teacher leadership and school change processes; preparation for the job search, the STEP Elementary Portfolio, and the STEP Elementary Conference. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246F",
+        "courseName": "Elementary Teaching Seminar: School-Family Partnerships",
+        "courseDescription": "Integrating theory and practice in teacher development. Topics include: equity, democracy, and social justice in the context of teaching and learning; teacher reflection, inquiry, and research; parent/teacher relationships; youth development and community engagement; professional growth and development; teacher leadership and school change processes; preparation for the job search, the STEP Elementary Portfolio, and the STEP Elementary Conference. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246G",
+        "courseName": "Elementary Teaching Seminar: Assessment for Learning and Equity",
+        "courseDescription": "Integrating theory and practice in teacher development. Topics include: equity, democracy, and social justice in the context of teaching and learning; teacher reflection, inquiry, and research; parent/teacher relationships; youth development and community engagement; professional growth and development; teacher leadership and school change processes; preparation for the job search, the STEP Elementary Portfolio, and the STEP Elementary Conference. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 246H",
+        "courseName": "Elementary Teaching Seminar: Imagining Forward",
+        "courseDescription": "Integrating theory and practice in teacher development. Topics include: equity, democracy, and social justice in the context of teaching and learning; teacher reflection, inquiry, and research; parent/teacher relationships; youth development and community engagement; professional growth and development; teacher leadership and school change processes; preparation for the job search, the STEP Elementary Portfolio, and the STEP Elementary Conference. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 250",
+        "courseName": "What Do Students Really Know? The Risks of Modern Assessment",
+        "courseDescription": "This course focuses on helping students to advance their knowledge about theory, design and research issues related to assessing student learning for accountability and learning purposes. The course explores assessment topics with a critical perspective in two contexts: large-scale and classroom assessment. The course will help students become critical test consumers, better-informed assessment evaluators, and advocator of reliable, valid and fair assessments for culturally and linguistically diverse populations.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 251",
+        "courseName": "Topics in Epistemology and Education",
+        "courseDescription": "Epistemology and education are each concerned with knowledge. Epistemology has both positive and normative aspects: it asks what knowledge is and why it is valued. Education is concerned with methods and conditions for conveying knowledge. This course will focus on current topics in epistemology with a view toward their implications for education and pedagogy. We will explore contemporary work in social epistemology and virtue epistemology; multicultural and feminist perspectives; epistemic development, and the significance of artificial intelligence and digital technology for theories of knowledge.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 252",
+        "courseName": "Introduction to Psychometrics",
+        "courseDescription": "Concepts of reliability and validity; derivation and use of test scales and norms; mathematical models and procedures for test validation, scoring, and interpretation.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 252L",
+        "courseName": "Introduction to Psychometrics - Lab",
+        "courseDescription": "This course will cover the material from EDUC 252 in an applied setting. Emphasis will be in developing a capacity for applying and interpreting psychometrics techniques to real-world and simulated data.",
+        "prerequisites": [
+            "EDUC 252"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 253",
+        "courseName": "Foundations of Learning: From Ideas to Application",
+        "courseDescription": "Education is one of the most contested spaces in American society today. But its public commentators draw on old debates in the texts of Plato, Rousseau, DuBois, Dewey and others. This course offers an opportunity to uncover the roots of current conversations about education and engage the classic works of educational philosophy, history, and humanities. We will discuss the texts, understand their ideas, and apply them to making grounded contributions to contemporary debates, policy direction, and strategic plans.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 254",
+        "courseName": "Digital Learning Design Workshop",
+        "courseDescription": "Digital Learning Design Workshop is a project-based course offered in Fall and Winter Quarters that students can take as part of the Digital Learning Initiative's Student Accelerator. In hands-on workshops, led by prominent academic and industry experts, students will define specific learning problems, recruit teammates, develop an approach to learning and community building using digital technology, create prototypes, test them with target learners, and progressively refine them for potential entry in the Digital Learning Design Challenge.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 255",
+        "courseName": "Mission and Money in Education",
+        "courseDescription": "(Same as GSBGEN 373) Educational institutions are defined by their academic missions and their financial structures. When we refer to public/private or nonprofit/profit sectors, these are shorthand descriptions of the different capital structures that underlie educational organizations. Increasingly, these options - and novel variations on them - exist throughout the education enterprise: in K-12 schools, higher education, and ancillary service providers. In this course we will explore the relationships between academic goals and financial structures, with particular focus on management and decision making in educational organizations.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 256",
+        "courseName": "Psychological and Educational Resilience Among Children and Youth (HUMBIO 149)",
+        "courseDescription": "Theoretical, methodological, and empirical issues pertaining to the psychological and educational resilience of children and adolescents. Overview of the resilience framework, including current terminology and conceptual and measurement issues. Adaptive systems that enable some children to achieve successful adaptation despite high levels of adversity exposure. How resilience can be studied across multiple levels of analysis, ranging from cell to society. Individual, family, school, and community risk and protective factors that influence children's development and adaptation. Intervention programs designed to foster resilient adaptation in disadvantaged children's populations.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 257",
+        "courseName": "BAD Lab: Scholarly Communication in Education (CSRE 257, LINGUIST 255E)",
+        "courseDescription": "(Formerly EDUC 487 and CSRE 387). This seminar gives students an overview of scholarly communication in education in areas related to the BAD Lab. In the first half, we focus on publication including: publishing journal articles and books. We also examine multimedia communication, including: giving research talks, job talks, and interviews. In the second half of the course, we focus on reviewing, editing, and the politics and economics of publishing in education and related areas.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 258",
+        "courseName": "Literacy Development and Instruction",
+        "courseDescription": "Literacy acquisition as a developmental and educational process. Problems that may be encountered as children learn to read. How to disentangle home, community, and school instruction from development.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259",
+        "courseName": "Education Data Science Seminar",
+        "courseDescription": "This three-quarter seminar is a required course for Education Data Science MS students. Central to the seminar are discussing opportunities and challenges of Education Data Science; developing community among EDS students, faculty, and external EDS innovators; making room for peer learning around students' course work, skills and experiences; and increasing understanding of and preparation for internships, the capstone project and job opportunities. Finally, students will work towards a collective EDS Seminar Paper in order to apply their learning within the seminar and coursework in an education research relevant context.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259A",
+        "courseName": "Education Data Science Seminar",
+        "courseDescription": "This three-quarter seminar is a required course for Education Data Science MS students. Central to the seminar are discussing opportunities and challenges of Education Data Science; developing community among EDS students, faculty, and external EDS innovators; making room for peer learning around students' course work, skills and experiences; and increasing understanding of and preparation for internships, the capstone project and job opportunities. Finally, students will work towards a collective EDS Seminar Paper in order to apply their learning within the seminar and coursework in an education research relevant context.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259B",
+        "courseName": "Education Data Science Seminar",
+        "courseDescription": "This three-quarter seminar is a required course for Education Data Science MS students. Central to the seminar are discussing opportunities and challenges of Education Data Science; developing community among EDS students, faculty, and external EDS innovators; making room for peer learning around students' course work, skills and experiences; and increasing understanding of and preparation for internships, the capstone project and job opportunities. Finally, students will work towards a collective EDS Seminar Paper in order to apply their learning within the seminar and coursework in an education research relevant context.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259C",
+        "courseName": "Education Data Science Seminar",
+        "courseDescription": "This three-quarter seminar is a required course for Education Data Science MS students. Central to the seminar are discussing opportunities and challenges of Education Data Science; developing community among EDS students, faculty, and external EDS innovators; making room for peer learning around students' course work, skills and experiences; and increasing understanding of and preparation for internships, the capstone project and job opportunities. Finally, students will work towards a collective EDS Seminar Paper in order to apply their learning within the seminar and coursework in an education research relevant context.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259D",
+        "courseName": "Education Data Science Capstone Projects",
+        "courseDescription": "This three-quarter seminar is open to and required for second-year Education Data Science MS students. Central to the seminar is discussing work in progress on Capstone Projects.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259E",
+        "courseName": "Education Data Science Capstone Projects",
+        "courseDescription": "This three-quarter seminar is open to and required for second-year Education Data Science MS students. Central to the seminar is discussing work in progress on Capstone Projects. Capstone Projects may require curricular practical training and the course meets the requirements for CPT for students on F-1V visas",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 259F",
+        "courseName": "Education Data Science Capstone Projects",
+        "courseDescription": "This three-quarter seminar is open to and required for second-year Education Data Science MS students. Central to the seminar is discussing work in progress on Capstone Projects. Capstone Projects may require curricular practical training and the course meets the requirements for CPT for students on F-1V visas.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 260",
+        "courseName": "Lean Launchpad for Education",
+        "courseDescription": "Learn how to turn a technical idea from a lab, research, or vision into a successful business using the Lean Launchpad process (business model canvas, customer development, running experiments, and agile engineering.) This class focuses on businesses that have a positive impact on education, either through schools or directly to parents and children. Hands-on experimental class. 15+ hours per week talking to customers, regulators and partners outside the classroom, plus time building minimal viable products. Team applications required in September. See course website https://llp-ed-fall-2024.squarespace.com/. Prerequisite: interest in and passion for exploring whether your technology idea can become a real company. Limited enrollment.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 260B",
+        "courseName": "Advanced Statistical Methods for Observational Studies (EPI 292, STATS 266)",
+        "courseDescription": "Design principles and statistical methods for observational studies. Topics include: matching methods, sensitivity analysis, and instrumental variables. 3 unit registration requires a small project and presentation. Computing is in R. Pre-requisites: EPI 261 and 262 or STATS 209 (EPI 239), or equivalent. See http://rogosateaching.com/somgen290/",
+        "prerequisites": [
+            "STATS 209"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 261A",
+        "courseName": "Distance Learning",
+        "courseDescription": "Remote teaching and learning is not a new idea, however the popularity of these models has surged given the current COVID-19 pandemic. As students, parents, and teachers adapt to the dynamic nature of the current crisis, so too must our models of teaching and learning. This course is designed to begin the conversation around what synchronous and asynchronous remote teaching and learning can look like, and how considerations of equity and access are central to the realization of successful remote learning experiences.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 261B",
+        "courseName": "Distance Learning",
+        "courseDescription": "Remote teaching and learning is not a new idea, however the popularity of these models has surged given the current COVID-19 pandemic. As students, parents, and teachers adapt to the dynamic nature of the current crisis, so too must our models of teaching and learning. This course is designed to begin the conversation around what synchronous and asynchronous remote teaching and learning can look like, and how considerations of equity and access are central to the realization of successful remote learning experiences.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 261E",
+        "courseName": "Curriculum and Instruction Elective in Data Science",
+        "courseDescription": "Data are all around us and it is becoming imperative for educators to teach students to develop greater data acumen. Topics covered include approaches to teaching about data and data science in the secondary school, including goals for instruction, teaching techniques, and instructional resources. For STEP Program students only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 262A",
+        "courseName": "Curriculum and Instruction in English",
+        "courseDescription": "Approaches to teaching English in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 262B",
+        "courseName": "Curriculum and Instruction in English",
+        "courseDescription": "Approaches to teaching English in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. STEP secondary only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 262C",
+        "courseName": "Curriculum and Instruction in English",
+        "courseDescription": "Approaches to teaching English in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. (STEP)",
+        "prerequisites": [
+            "EDUC 201"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 262D",
+        "courseName": "Curriculum & Instruction Elective in English",
+        "courseDescription": "Methodology of science instruction: teaching for English and language arts; linking the goals of teaching English with interdisciplinary curricula; opportunities to develop teaching materials. For STEP Program students only.",
+        "prerequisites": [
+            "EDUC 201"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 263A",
+        "courseName": "Curriculum and Instruction in Mathematics",
+        "courseDescription": "The purposes and programs of mathematics in the secondary curriculum; teaching materials, methods. Prerequisite: STEP student or consent of instructor. (STEP) 263A. Sum, 263B. Aut, 263C. Win",
+        "prerequisites": [
+            "EDUC 263A",
+            "EDUC 263B",
+            "EDUC 263C"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 263B",
+        "courseName": "Curriculum and Instruction in Mathematics",
+        "courseDescription": "The purposes and programs of mathematics in the secondary curriculum; teaching materials, methods. Prerequisite: STEP student or consent of instructor. (STEP) 263A. Sum, 263B. Aut, 263C. Win",
+        "prerequisites": [
+            "EDUC 263A",
+            "EDUC 263B",
+            "EDUC 263C"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 263C",
+        "courseName": "Curriculum and Instruction in Mathematics",
+        "courseDescription": "The purposes and programs of mathematics in the secondary curriculum; teaching materials, methods. Prerequisite: STEP student or consent of instructor. (STEP) 263A. Sum, 263B. Aut, 263C. Win",
+        "prerequisites": [
+            "EDUC 263C",
+            "EDUC 263B",
+            "EDUC 263A"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 263D",
+        "courseName": "Curriculum & Instruction Elective in Math",
+        "courseDescription": "Methodology of math instruction: teaching for mathematical thinking and reasoning; linking the goals of teaching math with literacy and interdisciplinary curricula; opportunities to develop teaching materials. For STEP Program students only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 263E",
+        "courseName": "Quantitative Reasoning & Mathematics I",
+        "courseDescription": "First of a three-course sequence in mathematics for STEP elementary teacher candidates. Content, pedagogy, and context. Mathematics subject matter; the orchestration of teaching and learning of elementary mathematics including curriculum, classroom and lesson design, and cases studies. Sociocultural and linguistic diversity, equity, differentiation of instruction, the impact of state and national standards, and home/community connections.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 263F",
+        "courseName": "Quantitative Reasoning in Mathematics II",
+        "courseDescription": "Second of a three-course sequence in mathematics for STEP elementary teacher candidates. Content, pedagogy, and context. Mathematics subject matter; the orchestration of teaching and learning of elementary mathematics including curriculum, classroom and lesson design, and cases studies. Sociocultural and linguistic diversity, equity, differentiation of instruction, the impact of state and national standards, and home/community connections.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 263G",
+        "courseName": "Quantitative Reasoning in Mathematics III",
+        "courseDescription": "Third of a three-course sequence in mathematics for STEP elementary teacher candidates. Content, pedagogy, and context. Mathematics subject matter; the orchestration of teaching and learning of elementary mathematics including curriculum, classroom and lesson design, and cases studies. Sociocultural and linguistic diversity, equity, differentiation of instruction, the impact of state and national standards, and home/community connections.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 264A",
+        "courseName": "Curriculum and Instruction in World Languages",
+        "courseDescription": "Approaches to teaching foreign languages in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. Prerequisite: STEP student. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 264B",
+        "courseName": "Curriculum and Instruction in World Languages",
+        "courseDescription": "Approaches to teaching foreign languages in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. STEP secondary only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 264C",
+        "courseName": "Curriculum and Instruction in World Languages",
+        "courseDescription": "Approaches to teaching foreign languages in the secondary school, including goals for instruction, teaching techniques, and methods of evaluation. Prerequisite: STEP student. (STEP)",
+        "prerequisites": [
+            "EDUC 103A"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 264D",
+        "courseName": "Curriculum and Instruction Elective in Spanish-World Language",
+        "courseDescription": "This course is for STEP graduate student teacher candidates to gain pedagogical, curricular and instructional tools to teach Spanish for learners and Heritage Spanish. It satisfies the academic course requirements for a CA Secondary Single Subject Teaching Credential in Spanish-World Language.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 264E",
+        "courseName": "Methods and Materials in Bilingual Classrooms",
+        "courseDescription": "Restricted to STEP elementary teacher candidates in the BCLAD program. Theories, research, and methods related to instruction of Spanish-English bilingual children, grades K-8. Approaches to dual language instruction, and pedagogical and curricular strategies for the instruction of reading, language arts, science, history, social science, and math in Spanish. Assessment issues and practices with bilingual students. In Spanish.",
+        "prerequisites": [
+            "EDUC 101"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 265",
+        "courseName": "History of Higher Education in the U.S. (AMSTUD 165, EDUC 165, HISTORY 158C)",
+        "courseDescription": "Major periods of evolution, particularly since the mid-19th century. Premise: insights into contemporary higher education can be obtained through its antecedents, particularly regarding issues of governance, mission, access, curriculum, and the changing organization of colleges and universities.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 267A",
+        "courseName": "Curriculum and Instruction in Science",
+        "courseDescription": "Possible objectives of secondary science teaching and related methods: selection and organization of content and instructional materials; lab and demonstration techniques; evaluation, tests; curricular changes; ties with other subject areas. Prerequisite: STEP student or consent of instructor. (STEP)",
+        "prerequisites": [
+            "EDUC 101"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 267B",
+        "courseName": "Curriculum and Instruction in Science",
+        "courseDescription": "Possible objectives of secondary science teaching and related methods: selection and organization of content and instructional materials; lab and demonstration techniques; evaluation, tests; curricular changes; ties with other subject areas. Prerequisite: STEP student or consent of instructor. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 267C",
+        "courseName": "Curriculum and Instruction in Science",
+        "courseDescription": "Possible objectives of secondary science teaching and related methods: selection and organization of content and instructional materials; lab and demonstration techniques; evaluation, tests; curricular changes; ties with other subject areas. Prerequisite: STEP student or consent of instructor. (STEP)",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 267D",
+        "courseName": "Curriculum & Instruction Elective in Science",
+        "courseDescription": "Methodology of science instruction: teaching for scientific reasoning; linking the goals of teaching science with literacy and interdisciplinary curricula; opportunities to develop teaching materials. For STEP Program students only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 267E",
+        "courseName": "Development of Scientific Reasoning and Knowledge",
+        "courseDescription": "For STEP elementary teacher candidates. Theories and methods of teaching and learning science. How to develop curricula and criteria for critiquing curricula. Students design a science curriculum plan for a real setting. State and national science frameworks and content standards. Alternative teaching approaches; how to select approaches that are compatible with learner experience and lesson objectives. Focus is on the linguistic and cultural diversity of California public school students.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 267F",
+        "courseName": "Development of Scientific Reasoning and Knowledge II",
+        "courseDescription": "Continuation of 267E. Scientific knowledge and pedagogical skills for supporting science instruction. Topics include: how children build scientific understandings and what that understanding might look and sound like in young children; what school science is and how concepts are connected to the doing of it; physical, life, and earth science constructs.",
+        "prerequisites": [
+            "EDUC 267E"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 267G",
+        "courseName": "Integrating the Garden into the Elementary Curriculum",
+        "courseDescription": "This mini-course uses the garden and kitchen environments to provide teacher candidates with real-world contexts in which to explore some of the key issues that children face in health, nutrition, and sustainability. Teacher candidates will gain an understanding of how to integrate the various themes with content areas and standards and an appreciation for the importance of addressing children's health needs in an era when the country is facing increased obesity and other health problems.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 268A",
+        "courseName": "Curriculum and Instruction in History and Social Science",
+        "courseDescription": "The methodology of history instruction: teaching for historical thinking and reasoning; linking the goals of teaching history with literacy; curriculum trends; and opportunities to develop teaching and resource units. Prerequisite: STEP student.",
+        "prerequisites": [
+            "EDUC 100A"
+        ]
+    },
+    {
+        "courseNumber": "EDUC 268B",
+        "courseName": "Curriculum and Instruction in History and Social Science",
+        "courseDescription": "The methodology of history instruction: teaching for historical thinking and reasoning; linking the goals of teaching history with literacy; curriculum trends; and opportunities to develop teaching and resource units. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 268C",
+        "courseName": "Curriculum and Instruction in History and Social Science",
+        "courseDescription": "The methodology of history instruction: teaching for historical thinking and reasoning; linking the goals of teaching history with literacy; curriculum trends; and opportunities to develop teaching and resource units. Prerequisite: STEP student.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 268D",
+        "courseName": "Curriculum & Instruction Elective in History",
+        "courseDescription": "The methodology of history instruction: teaching for historical thinking and reasoning; linking the goals of teaching history with literacy and interdisciplinary curricula; opportunities to develop teaching materials. For STEP Program students only.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 268E",
+        "courseName": "Schooling the Golden State: A History of Education in California",
+        "courseDescription": "This pilot course examines key moments in the history of education in California. Troubling the popular notion that California was/is a \"golden state,\" that is, \"a land of liberal tolerance, progressive politics, and picturesque cosmopolitanism,\" we pay particular attention to how race, religion, gender, language, citizenship, empire, and migration have shaped the educational experiences of waves of Californians from past to present in ways that were/are often deeply unjust and unequal. At the same time, we make space to center the resistance of Californians of varying backgrounds, Indigenous, Asian, Black, and Brown, teachers and students, families, and communities, who imagined otherwise and worked to make their dreams reality. Throughout, we draw connections between California's past and its present, in order to think together about how history might offer critical context for ongoing debates over schooling.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 271",
+        "courseName": "Education Policy in the United States",
+        "courseDescription": "(Same as GSBGEN 347) The course will provide students from different disciplines with an understanding of the broad educational policy context. The course will cover topics including a) school finance systems; b) an overview of policies defining and shaping the sectors and institutional forms of schooling, c) an overview of school governance, d) educational human-resource policy, e) school accountability policies at the federal and state levels; and f) school assignment policies and law, including intra- and inter-district choice policies, desegregation law and policy.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 273",
+        "courseName": "Gender and Higher Education: National and International Perspectives (EDUC 173, FEMGEN 173, SOC 173, SOC 273)",
+        "courseDescription": "This course examines the ways in which higher education structures and policies interact with gender, gender identity, and other characteristics in the United States, around the world, and over time. Attention is paid to how changes in those structures and policies relate to access to, experiences in, and outcomes of higher education by gender. Students can expect to gain an understanding of theories and perspectives from the social sciences relevant to an understanding of the role of higher education in relation to structures of gender differentiation and hierarchy. Topics include undergraduate and graduate education; identity and sexuality; gender and science; gender and faculty; and feminist scholarship and pedagogy.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 275",
+        "courseName": "Leading Change in Schools",
+        "courseDescription": "This course explores organizational conditions conducive to planned change that can lead to school improvement. Particular attention is given to the plurality of leadership roles in change efforts. Intended primarily for master's students who have had some past experience working in or with schools.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 276",
+        "courseName": "Classroom Assessment",
+        "courseDescription": "This course focuses on helping students to advance their knowledge about theory, design, and research issues related to assessing student learning in the classroom context. Students in this course will develop the basic conceptual and technical knowledge about assessment development and evaluation in the context of instructional units.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 277",
+        "courseName": "Education of Immigrant Students: Psychological Perspectives",
+        "courseDescription": "Historical and contemporary approaches to educating immigrant students. Case study approach focuses on urban centers to demonstrate how stressed urban educational agencies serve immigrants and native-born U.S. students when confronted with overcrowded classrooms, controversy over curriculum, current school reform movements, and government policies regarding equal educational opportunity.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 278",
+        "courseName": "Introduction to Program Evaluation",
+        "courseDescription": "The purpose of Introduction to Program Evaluation (EDUC 278) is to provide an introduction to the field of program evaluation. Students taking this course will learn basic concepts and participate in intellectual debates in the field. This course is intended to examine issues and challenges faced by evaluators of educational and social programs. We will be working with real evaluation tasks throughout the course. The class will meet once a week for 2hrs 50 min. It is critical that you commit to reading all the material before class, so that the discussion is well-focused. During the last weeks of the course, an evaluation proposal of a real-world program will be developed. The proposal will become the final paper.",
+        "prerequisites": []
+    },
+    {
+        "courseNumber": "EDUC 280",
+        "courseName": "Learning & Teaching of Science (CTL 280, ENGR 295, MED 270, PHYSICS 295)",
+        "courseDescription": "This course will provide students with a basic knowledge of the relevant research in cognitive psychology and science education and the ability to apply that knowledge to enhance their ability to learn and teach science, particularly at the undergraduate level. Course will involve readings, discussion, and application of the ideas through creation of learning activities. It is suitable for advanced undergraduates and graduate students with some science background.",
+        "prerequisites": []
+    }
+]

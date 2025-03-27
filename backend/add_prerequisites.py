@@ -4,11 +4,12 @@ from initialize_database import create_tables, DB_PARAMS
 import psycopg2
 import json
 import re
+import os
 import time
 
 # performs baby checks of dataset
-
-JSON_FILE = "data\scraped\courses_cs_all.json"
+OUTPUT_JSON = r"data\processed\dumped_prereqs.json"
+JSON_FILE = r"data\scraped\courses_per_department_all.json"
 PROMPT_TEMPLATE = """
 You are a course advisor for Stanford University. You will be given a course description. Your task is to extract the **prerequisites** and return them as a **JSON list**, like this:
 
@@ -21,7 +22,7 @@ Follow these rules in order of priority:
 1. **If specific course numbers are listed as prerequisites**, extract all of them in the format "SUBJECT CODE" (e.g., "CS 106A"). 
    - Add a space between the subject and number (e.g., "CS106A" → "CS 106A").
    - Include all course codes explicitly listed in the text, even if they’re in parentheses or embedded in sentences.
-   - Always include the full course code with both subject and number, even if only the number is mentioned in the text. For example, if "193P" is listed and the course is in the CS department, return "CS 193P".
+   - Always include the full course code with both subject and number, even if only the number is mentioned in the text. 
    - The current course is from the {subject} department. Use this subject for any course numbers that are missing one.
 
 2. **If there are no course numbers**, extract **clear verbal prerequisite descriptions** (e.g., "Linear Algebra", "Introductory Biology").
@@ -34,6 +35,7 @@ Now, analyze the following course description and return the JSON list only:
 
 {courseDescription}
 """
+
 
 def get_all_courses():
     with open(JSON_FILE, "r") as f:
@@ -77,14 +79,17 @@ def get_course_id(code, curr):
     return result[0] if result else None
 
 def main():
+    
     print(f"➡️Loading all courses...")
     valid_courses = get_all_courses()
 
     print(f"➡️Initializing database...")
     create_tables()
-
+    
     all_courses = []
-    with open("data\scraped\courses_cs_all.json", "r") as f:
+    all_course_objs = []
+
+    with open(JSON_FILE, "r") as f:
         data = json.load(f)
         with psycopg2.connect(**DB_PARAMS) as conn:
             with conn.cursor() as curr:
@@ -95,10 +100,11 @@ def main():
                     VALUES (%s, %s, %s)
                     ON CONFLICT (code) DO NOTHING
                     """, (course["courseNumber"], course["courseName"], course["courseDescription"]))
-                
-                print(f"🌬️🌬️🌬️ Done inserting courses.")
+                    all_courses.append(course)
+            
+                print(f"🌬️🌬️🌬️ Done inserting into table: courses.")
                 # pass #2: populate prereqs
-                for course in tqdm(data[:100], leave=False):
+                for course in tqdm(data[1400:1480], leave=False):
                     course_obj = course
                     # get prereqs (ollama -> clean -> process)
                     messages = [
@@ -109,39 +115,21 @@ def main():
                     ]
 
                     response = chat("llama3.2", messages)
-                    try:
+                    try:   
                         raw_result = json.loads(response["message"]["content"])
                     except json.JSONDecodeError:
-                        print(f"❌Failed to parse JSON response for {course['courseNumber']}\nRaw result: {response['message']['content']}\n")
                         raw_result = response["message"]["content"]
+
                     time.sleep(0.05)
                     course_obj["prerequisites"] = process_pres(raw_result, valid_courses)
-                    # print(f"📘 {course_obj['courseNumber']} → {course_obj['prerequisites']}")
-                    all_courses.append(course_obj)
+                    print(f"{course_obj['courseNumber']} → {course_obj['prerequisites']}")
+                    all_course_objs.append(course_obj)
+                print(f"🌬️🌬️🌬️ Done populating prereqs.")
 
-
-
-    with open("data\scraped\prereqs.json", "w") as f:
-        json.dump(all_courses, f, indent=2)
-
-        #             # insert into `prereqs` for prerequisites
-        #             course_id = get_course_id(course["courseNumber"], curr)
-        #             for prereq in course_obj["prerequisites"]:
-        #                 prereq_id = get_course_id(prereq, curr)
-        #                 if prereq_id and course_id:
-        #                     curr.execute("""
-        #                     INSERT INTO prereqs (course_id, prereq_id)
-        #                     VALUES (%s, %s)
-        #                     ON CONFLICT (course_id, prereq_id) DO NOTHING
-        #                     """, (course_id, prereq_id))
-        #                 else:
-        #                     print(f"❌Prerequisite {prereq} not found for course {course_obj['courseNumber']}")
-
-        #             conn.commit()
-        #             time.sleep(0.1)
-        #             # print(f"✅successfully processed {course_obj['courseNumber']}!\n")
-        # num_courses = len(data)
-        # print(f"🎯🎯🎯Finished processing {num_courses} courses!")
+                # write all courses to json
+                with open(OUTPUT_JSON, "w") as f:
+                    json.dump(all_course_objs, f, indent=4)
+                    print(f"✨✨✨ Done writing to {OUTPUT_JSON}")
 
 if __name__ == "__main__":
     main()
